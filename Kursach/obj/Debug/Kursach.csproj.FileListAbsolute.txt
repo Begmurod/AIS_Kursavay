@@ -108,5 +108,4 @@ C:\Users\begmu\OneDrive\Рабочий стол\Kursach\Kursach\obj\Debug\Kursac
 C:\Users\begmu\OneDrive\Рабочий стол\Kursach\Kursach\bin\Debug\DevExpress.BonusSkins.v19.2.dll
 C:\Users\begmu\OneDrive\Рабочий стол\Kursach\Kursach\obj\Debug\Kursach.UI.positionUС.resources
 C:\Users\begmu\OneDrive\Рабочий стол\Kursach\Kursach\obj\Debug\Kursach.UI.WinForm.MachineForm.resources
-C:\Users\begmu\OneDrive\Рабочий стол\Kursach\Kursach\obj\Debug\Kursach.UI.MachineUC.resources
 C:\Users\begmu\OneDrive\Рабочий стол\Kursach\Kursach\obj\Debug\Kursach.UI.machineUC1.resources

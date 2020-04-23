@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0D452DB7-E91A-4DB9-84E0-1CD64AD47B74}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Kursach</RootNamespace>
+    <AssemblyName>Kursach</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="DevExpress.BonusSkins.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Images.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Transactions.Bridge, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="SMDiagnostics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.IdentityModel.Selectors" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Runtime.DurableInstancing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Activation" />
+    <Reference Include="System.ServiceModel.Internals, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="mainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainForm.Designer.cs">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModelKursachCode\auth_Users.cs" />
+    <Compile Include="ORMDataModelKursachCode\auth_Users.Designer.cs">
+      <DependentUpon>auth_Users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModelKursachCode\ConnectionHelper.cs" />
+    <Compile Include="ORMDataModelKursachCode\device_Machine.cs" />
+    <Compile Include="ORMDataModelKursachCode\device_Machine.Designer.cs">
+      <DependentUpon>device_Machine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModelKursachCode\device_Operations.cs" />
+    <Compile Include="ORMDataModelKursachCode\device_Operations.Designer.cs">
+      <DependentUpon>device_Operations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModelKursachCode\device_Position.cs" />
+    <Compile Include="ORMDataModelKursachCode\device_Position.Designer.cs">
+      <DependentUpon>device_Position.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModelKursachCode\device_Production.cs" />
+    <Compile Include="ORMDataModelKursachCode\device_Production.Designer.cs">
+      <DependentUpon>device_Production.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModelKursachCode\device_Products.cs" />
+    <Compile Include="ORMDataModelKursachCode\device_Products.Designer.cs">
+      <DependentUpon>device_Products.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModelKursachCode\device_ProfileWorkTeam.cs" />
+    <Compile Include="ORMDataModelKursachCode\device_ProfileWorkTeam.Designer.cs">
+      <DependentUpon>device_ProfileWorkTeam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModelKursachCode\device_RepairSchedule.cs" />
+    <Compile Include="ORMDataModelKursachCode\device_RepairSchedule.Designer.cs">
+      <DependentUpon>device_RepairSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModelKursachCode\device_Staff.cs" />
+    <Compile Include="ORMDataModelKursachCode\device_Staff.Designer.cs">
+      <DependentUpon>device_Staff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModelKursachCode\device_Type.cs" />
+    <Compile Include="ORMDataModelKursachCode\device_Type.Designer.cs">
+      <DependentUpon>device_Type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModelKursachCode\device_TypeOfRepair.cs" />
+    <Compile Include="ORMDataModelKursachCode\device_TypeOfRepair.Designer.cs">
+      <DependentUpon>device_TypeOfRepair.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModelKursachCode\device_TypeOperations.cs" />
+    <Compile Include="ORMDataModelKursachCode\device_TypeOperations.Designer.cs">
+      <DependentUpon>device_TypeOperations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModelKursachCode\device_TypeWorkTeam.cs" />
+    <Compile Include="ORMDataModelKursachCode\device_TypeWorkTeam.Designer.cs">
+      <DependentUpon>device_TypeWorkTeam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModelKursachCode\device_WorkShifts.cs" />
+    <Compile Include="ORMDataModelKursachCode\device_WorkShifts.Designer.cs">
+      <DependentUpon>device_WorkShifts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModelKursachCode\device_WorkTeam.cs" />
+    <Compile Include="ORMDataModelKursachCode\device_WorkTeam.Designer.cs">
+      <DependentUpon>device_WorkTeam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModelKursachCode\sysdiagrams.cs" />
+    <Compile Include="ORMDataModelKursachCode\sysdiagrams.Designer.cs">
+      <DependentUpon>sysdiagrams.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RibbonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RibbonForm.Designer.cs">
+      <DependentUpon>RibbonForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Common\LoadingIndicator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Common\LoadingIndicator.Designer.cs">
+      <DependentUpon>LoadingIndicator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\machineUC1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\machineUC1.Designer.cs">
+      <DependentUpon>machineUC1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\positionUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\positionUI.Designer.cs">
+      <DependentUpon>positionUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\positionUС.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\positionUС.Designer.cs">
+      <DependentUpon>positionUС.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\WinForm\MachineForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\WinForm\MachineForm.Designer.cs">
+      <DependentUpon>MachineForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\WinForm\PositionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\WinForm\PositionForm.Designer.cs">
+      <DependentUpon>PositionForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="mainForm.resx">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RibbonForm.resx">
+      <DependentUpon>RibbonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Common\LoadingIndicator.resx">
+      <DependentUpon>LoadingIndicator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\machineUC1.resx">
+      <DependentUpon>machineUC1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\positionUI.resx">
+      <DependentUpon>positionUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\positionUС.resx">
+      <DependentUpon>positionUС.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\WinForm\MachineForm.resx">
+      <DependentUpon>MachineForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\WinForm\PositionForm.resx">
+      <DependentUpon>PositionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ORMDataModelKursach.xpo" />
+    <None Include="ORMDataModelKursach.xpo.diagram">
+      <DependentUpon>ORMDataModelKursach.xpo</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Form\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

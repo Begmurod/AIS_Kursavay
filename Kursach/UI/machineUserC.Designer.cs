@@ -1,13 +1,13 @@
 ﻿namespace Kursach.UI
 {
-    partial class machineUC1
+    partial class machineUserC
     {
-        /// <summary>
+        /// <summary> 
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
+        /// <summary> 
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
@@ -50,16 +50,16 @@
             this.machineGridView = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colGUID = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colName = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.employeesLabelControl = new DevExpress.XtraEditors.LabelControl();
-            this.customersNavigationPage = new DevExpress.XtraBars.Navigation.NavigationPage();
-            this.customersLabelControl = new DevExpress.XtraEditors.LabelControl();
-            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
             this.colTypeGUID = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colOperationsGUID = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colCommissioningDate = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colDateOfChange = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colDeletedDate = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.employeesLabelControl = new DevExpress.XtraEditors.LabelControl();
+            this.customersNavigationPage = new DevExpress.XtraBars.Navigation.NavigationPage();
+            this.customersLabelControl = new DevExpress.XtraEditors.LabelControl();
+            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.tabbedView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.positionRibbonControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.navigationFrame)).BeginInit();
@@ -76,6 +76,7 @@
             this.positionRibbonControl.ExpandCollapseItem.Id = 0;
             this.positionRibbonControl.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
             this.positionRibbonControl.ExpandCollapseItem,
+            this.positionRibbonControl.SearchEditItem,
             this.skinRibbonGalleryBarItem,
             this.employeesBarButtonItem,
             this.customersBarButtonItem,
@@ -84,8 +85,7 @@
             this.barButtonItemAdd,
             this.barButtonItemView,
             this.barButtonItemEdit,
-            this.barButtonItemDelete,
-            this.positionRibbonControl.SearchEditItem});
+            this.barButtonItemDelete});
             this.positionRibbonControl.Location = new System.Drawing.Point(0, 0);
             this.positionRibbonControl.MaxItemId = 50;
             this.positionRibbonControl.MdiMergeStyle = DevExpress.XtraBars.Ribbon.RibbonMdiMergeStyle.Always;
@@ -93,7 +93,7 @@
             this.positionRibbonControl.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage});
             this.positionRibbonControl.ShowApplicationButton = DevExpress.Utils.DefaultBoolean.False;
-            this.positionRibbonControl.Size = new System.Drawing.Size(800, 108);
+            this.positionRibbonControl.Size = new System.Drawing.Size(800, 126);
             this.positionRibbonControl.StatusBar = this.ribbonStatusBar;
             this.positionRibbonControl.Tag = "<Null>";
             this.positionRibbonControl.ToolbarLocation = DevExpress.XtraBars.Ribbon.RibbonQuickAccessToolbarLocation.Hidden;
@@ -177,10 +177,10 @@
             // 
             // ribbonStatusBar
             // 
-            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 577);
+            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 573);
             this.ribbonStatusBar.Name = "ribbonStatusBar";
             this.ribbonStatusBar.Ribbon = this.positionRibbonControl;
-            this.ribbonStatusBar.Size = new System.Drawing.Size(800, 23);
+            this.ribbonStatusBar.Size = new System.Drawing.Size(800, 27);
             // 
             // navigationFrame
             // 
@@ -189,14 +189,14 @@
             this.navigationFrame.Controls.Add(this.employeesNavigationPage);
             this.navigationFrame.Controls.Add(this.customersNavigationPage);
             this.navigationFrame.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.navigationFrame.Location = new System.Drawing.Point(0, 108);
+            this.navigationFrame.Location = new System.Drawing.Point(0, 126);
             this.navigationFrame.Name = "navigationFrame";
             this.navigationFrame.Pages.AddRange(new DevExpress.XtraBars.Navigation.NavigationPageBase[] {
             this.employeesNavigationPage,
             this.customersNavigationPage});
             this.navigationFrame.RibbonAndBarsMergeStyle = DevExpress.XtraBars.Docking2010.Views.RibbonAndBarsMergeStyle.Always;
             this.navigationFrame.SelectedPage = this.employeesNavigationPage;
-            this.navigationFrame.Size = new System.Drawing.Size(800, 469);
+            this.navigationFrame.Size = new System.Drawing.Size(800, 447);
             this.navigationFrame.TabIndex = 0;
             this.navigationFrame.Text = "navigationFrame";
             // 
@@ -205,7 +205,7 @@
             this.employeesNavigationPage.Controls.Add(this.positiongridControl);
             this.employeesNavigationPage.Controls.Add(this.employeesLabelControl);
             this.employeesNavigationPage.Name = "employeesNavigationPage";
-            this.employeesNavigationPage.Size = new System.Drawing.Size(800, 469);
+            this.employeesNavigationPage.Size = new System.Drawing.Size(800, 447);
             // 
             // positiongridControl
             // 
@@ -215,7 +215,7 @@
             this.positiongridControl.MainView = this.machineGridView;
             this.positiongridControl.MenuManager = this.positionRibbonControl;
             this.positiongridControl.Name = "positiongridControl";
-            this.positiongridControl.Size = new System.Drawing.Size(800, 469);
+            this.positiongridControl.Size = new System.Drawing.Size(800, 447);
             this.positiongridControl.TabIndex = 1;
             this.positiongridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.machineGridView});
@@ -261,62 +261,6 @@
             this.colName.Visible = true;
             this.colName.VisibleIndex = 0;
             // 
-            // employeesLabelControl
-            // 
-            this.employeesLabelControl.Appearance.Font = new System.Drawing.Font("Tahoma", 25.25F);
-            this.employeesLabelControl.Appearance.ForeColor = System.Drawing.Color.Gray;
-            this.employeesLabelControl.Appearance.Options.UseFont = true;
-            this.employeesLabelControl.Appearance.Options.UseForeColor = true;
-            this.employeesLabelControl.Appearance.Options.UseTextOptions = true;
-            this.employeesLabelControl.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.employeesLabelControl.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.employeesLabelControl.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.employeesLabelControl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.employeesLabelControl.Location = new System.Drawing.Point(0, 0);
-            this.employeesLabelControl.Name = "employeesLabelControl";
-            this.employeesLabelControl.Size = new System.Drawing.Size(800, 469);
-            this.employeesLabelControl.TabIndex = 0;
-            this.employeesLabelControl.Text = "Employees";
-            // 
-            // customersNavigationPage
-            // 
-            this.customersNavigationPage.Controls.Add(this.customersLabelControl);
-            this.customersNavigationPage.Name = "customersNavigationPage";
-            this.customersNavigationPage.Size = new System.Drawing.Size(800, 469);
-            // 
-            // customersLabelControl
-            // 
-            this.customersLabelControl.Appearance.Font = new System.Drawing.Font("Tahoma", 25.25F);
-            this.customersLabelControl.Appearance.ForeColor = System.Drawing.Color.Gray;
-            this.customersLabelControl.Appearance.Options.UseFont = true;
-            this.customersLabelControl.Appearance.Options.UseForeColor = true;
-            this.customersLabelControl.Appearance.Options.UseTextOptions = true;
-            this.customersLabelControl.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.customersLabelControl.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.customersLabelControl.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.customersLabelControl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.customersLabelControl.Location = new System.Drawing.Point(0, 0);
-            this.customersLabelControl.Name = "customersLabelControl";
-            this.customersLabelControl.Size = new System.Drawing.Size(800, 469);
-            this.customersLabelControl.TabIndex = 1;
-            this.customersLabelControl.Text = "Customers";
-            // 
-            // barButtonItem1
-            // 
-            this.barButtonItem1.Caption = "Просмотр";
-            this.barButtonItem1.CloseSubMenuOnClickMode = DevExpress.Utils.DefaultBoolean.True;
-            this.barButtonItem1.Enabled = false;
-            this.barButtonItem1.Id = 47;
-            this.barButtonItem1.Name = "barButtonItem1";
-            // 
-            // barButtonItem5
-            // 
-            this.barButtonItem5.Caption = "Просмотр";
-            this.barButtonItem5.CloseSubMenuOnClickMode = DevExpress.Utils.DefaultBoolean.True;
-            this.barButtonItem5.Enabled = false;
-            this.barButtonItem5.Id = 47;
-            this.barButtonItem5.Name = "barButtonItem5";
-            // 
             // colTypeGUID
             // 
             this.colTypeGUID.Caption = "Тип агрегата";
@@ -353,16 +297,71 @@
             this.colDeletedDate.FieldName = "DeletedDate";
             this.colDeletedDate.Name = "colDeletedDate";
             // 
-            // machineUC1
+            // employeesLabelControl
+            // 
+            this.employeesLabelControl.Appearance.Font = new System.Drawing.Font("Tahoma", 25.25F);
+            this.employeesLabelControl.Appearance.ForeColor = System.Drawing.Color.Gray;
+            this.employeesLabelControl.Appearance.Options.UseFont = true;
+            this.employeesLabelControl.Appearance.Options.UseForeColor = true;
+            this.employeesLabelControl.Appearance.Options.UseTextOptions = true;
+            this.employeesLabelControl.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.employeesLabelControl.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.employeesLabelControl.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.employeesLabelControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.employeesLabelControl.Location = new System.Drawing.Point(0, 0);
+            this.employeesLabelControl.Name = "employeesLabelControl";
+            this.employeesLabelControl.Size = new System.Drawing.Size(800, 447);
+            this.employeesLabelControl.TabIndex = 0;
+            this.employeesLabelControl.Text = "Employees";
+            // 
+            // customersNavigationPage
+            // 
+            this.customersNavigationPage.Controls.Add(this.customersLabelControl);
+            this.customersNavigationPage.Name = "customersNavigationPage";
+            this.customersNavigationPage.Size = new System.Drawing.Size(800, 447);
+            // 
+            // customersLabelControl
+            // 
+            this.customersLabelControl.Appearance.Font = new System.Drawing.Font("Tahoma", 25.25F);
+            this.customersLabelControl.Appearance.ForeColor = System.Drawing.Color.Gray;
+            this.customersLabelControl.Appearance.Options.UseFont = true;
+            this.customersLabelControl.Appearance.Options.UseForeColor = true;
+            this.customersLabelControl.Appearance.Options.UseTextOptions = true;
+            this.customersLabelControl.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.customersLabelControl.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.customersLabelControl.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.customersLabelControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.customersLabelControl.Location = new System.Drawing.Point(0, 0);
+            this.customersLabelControl.Name = "customersLabelControl";
+            this.customersLabelControl.Size = new System.Drawing.Size(800, 447);
+            this.customersLabelControl.TabIndex = 1;
+            this.customersLabelControl.Text = "Customers";
+            // 
+            // barButtonItem1
+            // 
+            this.barButtonItem1.Caption = "Просмотр";
+            this.barButtonItem1.CloseSubMenuOnClickMode = DevExpress.Utils.DefaultBoolean.True;
+            this.barButtonItem1.Enabled = false;
+            this.barButtonItem1.Id = 47;
+            this.barButtonItem1.Name = "barButtonItem1";
+            // 
+            // barButtonItem5
+            // 
+            this.barButtonItem5.Caption = "Просмотр";
+            this.barButtonItem5.CloseSubMenuOnClickMode = DevExpress.Utils.DefaultBoolean.True;
+            this.barButtonItem5.Enabled = false;
+            this.barButtonItem5.Id = 47;
+            this.barButtonItem5.Name = "barButtonItem5";
+            // 
+            // machineUserC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.navigationFrame);
             this.Controls.Add(this.ribbonStatusBar);
             this.Controls.Add(this.positionRibbonControl);
-            this.Name = "machineUC1";
+            this.Name = "machineUserC";
             this.Size = new System.Drawing.Size(800, 600);
-            this.Load += new System.EventHandler(this.machineUC1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.tabbedView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.positionRibbonControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.navigationFrame)).EndInit();

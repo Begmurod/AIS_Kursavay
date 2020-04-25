@@ -1,16 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
-using Kursach.DBKursach;
 using DevExpress.Xpo;
-using DevExpress.Xpo.DB;
+using Kursach.DB.DBKursach;
 
 namespace Kursach.UI.WinForm
 {
@@ -37,10 +30,9 @@ namespace Kursach.UI.WinForm
         private void MachineForm_Load(object sender, EventArgs e)
         {
             initForm();
-        }
-        /// <summary>
-        /// Здесь пока все в куче: поднятие/создание объекта, загрузка справочников для списков, настройка внешнего вида...
-        /// </summary>
+        }/// <summary>
+         /// Здесь пока все в куче: поднятие/создание объекта, загрузка справочников для списков, настройка внешнего вида...
+         /// </summary>
         void initForm()
         {
             if (edit)
@@ -70,22 +62,6 @@ namespace Kursach.UI.WinForm
             }
             #endregion
 
-
-            #region Заполнение выпадающего списка данными
-            using (Session u = new Session())
-            {
-                SelectedData typeData = u.ExecuteQuery(@"SELECT GUID,NameType FROM [device].Type WHERE[DeletedDate] is null");
-                typeDataView.LoadData(typeData);
-
-            }
-            using (Session u = new Session())
-            {
-                SelectedData operationsData = u.ExecuteQuery(@"SELECT GUID,NameOperations FROM [device].Operations WHERE[DeletedDate] is null");
-                operationsDataView.LoadData(operationsData);
-
-            }
-            #endregion
-
             if (edit)
             {
                 nameTextEdit.Text = currentMachine.Name;
@@ -101,6 +77,8 @@ namespace Kursach.UI.WinForm
         {
             validForm();
             SaveMachine();
+            uow.CommitChanges();//Сохранение объекта в БД       
+            Close();
         }
         void SaveMachine()
         {
@@ -109,7 +87,6 @@ namespace Kursach.UI.WinForm
                 currentMachine.Name = nameTextEdit.Text;
                 currentMachine.TypeGUID = uow.GetObjectByKey<device_Type>(baseOperationsGUIDLookUpEdit.EditValue);
                 currentMachine.OperationsGUID = uow.GetObjectByKey<device_Operations>(baseOperationsGUIDLookUpEdit.EditValue);
-
                 currentMachine.CommissioningDate = CommissioningDatedateEdit.DateTime;
 
                 if (edit)
@@ -130,7 +107,7 @@ namespace Kursach.UI.WinForm
             List<string> notExistData = new List<string>();
 
             formValid = dxValidationProvider.Validate();
-            foreach (System.Windows.Forms.Control c in dxValidationProvider.GetInvalidControls())
+            foreach (Control c in dxValidationProvider.GetInvalidControls())
             {
                 notExistData.Add(dxValidationProvider.GetValidationRule(c).ErrorText);
             }

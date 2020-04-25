@@ -46,6 +46,9 @@
     <Reference Include="DevExpress.XtraGrid.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraLayout.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraNavBar.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="Microsoft.Transactions.Bridge, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
     <Reference Include="SMDiagnostics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
     <Reference Include="System" />
@@ -82,75 +85,92 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="mainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="mainForm.Designer.cs">
-      <DependentUpon>mainForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ORMDataModelKursachCode\auth_Users.cs" />
-    <Compile Include="ORMDataModelKursachCode\auth_Users.Designer.cs">
+    <Compile Include="DB\ORMDataModelDBKursachCode\auth_Users.cs" />
+    <Compile Include="DB\ORMDataModelDBKursachCode\auth_Users.Designer.cs">
       <DependentUpon>auth_Users.cs</DependentUpon>
     </Compile>
-    <Compile Include="ORMDataModelKursachCode\ConnectionHelper.cs" />
-    <Compile Include="ORMDataModelKursachCode\device_Machine.cs" />
-    <Compile Include="ORMDataModelKursachCode\device_Machine.Designer.cs">
+    <Compile Include="DB\ORMDataModelDBKursachCode\ConnectionHelper.cs" />
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_Machine.cs" />
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_Machine.Designer.cs">
       <DependentUpon>device_Machine.cs</DependentUpon>
     </Compile>
-    <Compile Include="ORMDataModelKursachCode\device_Operations.cs" />
-    <Compile Include="ORMDataModelKursachCode\device_Operations.Designer.cs">
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_Material.cs" />
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_Material.Designer.cs">
+      <DependentUpon>device_Material.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_Operations.cs" />
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_Operations.Designer.cs">
       <DependentUpon>device_Operations.cs</DependentUpon>
     </Compile>
-    <Compile Include="ORMDataModelKursachCode\device_Position.cs" />
-    <Compile Include="ORMDataModelKursachCode\device_Position.Designer.cs">
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_Position.cs" />
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_Position.Designer.cs">
       <DependentUpon>device_Position.cs</DependentUpon>
     </Compile>
-    <Compile Include="ORMDataModelKursachCode\device_Production.cs" />
-    <Compile Include="ORMDataModelKursachCode\device_Production.Designer.cs">
-      <DependentUpon>device_Production.cs</DependentUpon>
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_Productions.cs" />
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_Productions.Designer.cs">
+      <DependentUpon>device_Productions.cs</DependentUpon>
     </Compile>
-    <Compile Include="ORMDataModelKursachCode\device_Products.cs" />
-    <Compile Include="ORMDataModelKursachCode\device_Products.Designer.cs">
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_Products.cs" />
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_Products.Designer.cs">
       <DependentUpon>device_Products.cs</DependentUpon>
     </Compile>
-    <Compile Include="ORMDataModelKursachCode\device_ProfileWorkTeam.cs" />
-    <Compile Include="ORMDataModelKursachCode\device_ProfileWorkTeam.Designer.cs">
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_ProfileWorkTeam.cs" />
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_ProfileWorkTeam.Designer.cs">
       <DependentUpon>device_ProfileWorkTeam.cs</DependentUpon>
     </Compile>
-    <Compile Include="ORMDataModelKursachCode\device_RepairSchedule.cs" />
-    <Compile Include="ORMDataModelKursachCode\device_RepairSchedule.Designer.cs">
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_RepairSchedule.cs" />
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_RepairSchedule.Designer.cs">
       <DependentUpon>device_RepairSchedule.cs</DependentUpon>
     </Compile>
-    <Compile Include="ORMDataModelKursachCode\device_Staff.cs" />
-    <Compile Include="ORMDataModelKursachCode\device_Staff.Designer.cs">
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_Staff.cs" />
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_Staff.Designer.cs">
       <DependentUpon>device_Staff.cs</DependentUpon>
     </Compile>
-    <Compile Include="ORMDataModelKursachCode\device_Type.cs" />
-    <Compile Include="ORMDataModelKursachCode\device_Type.Designer.cs">
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_Type.cs" />
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_Type.Designer.cs">
       <DependentUpon>device_Type.cs</DependentUpon>
     </Compile>
-    <Compile Include="ORMDataModelKursachCode\device_TypeOfRepair.cs" />
-    <Compile Include="ORMDataModelKursachCode\device_TypeOfRepair.Designer.cs">
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_TypeOfRepair.cs" />
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_TypeOfRepair.Designer.cs">
       <DependentUpon>device_TypeOfRepair.cs</DependentUpon>
     </Compile>
-    <Compile Include="ORMDataModelKursachCode\device_TypeOperations.cs" />
-    <Compile Include="ORMDataModelKursachCode\device_TypeOperations.Designer.cs">
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_TypeOperations.cs" />
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_TypeOperations.Designer.cs">
       <DependentUpon>device_TypeOperations.cs</DependentUpon>
     </Compile>
-    <Compile Include="ORMDataModelKursachCode\device_TypeWorkTeam.cs" />
-    <Compile Include="ORMDataModelKursachCode\device_TypeWorkTeam.Designer.cs">
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_TypeWorkTeam.cs" />
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_TypeWorkTeam.Designer.cs">
       <DependentUpon>device_TypeWorkTeam.cs</DependentUpon>
     </Compile>
-    <Compile Include="ORMDataModelKursachCode\device_WorkShifts.cs" />
-    <Compile Include="ORMDataModelKursachCode\device_WorkShifts.Designer.cs">
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_WorkShifts.cs" />
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_WorkShifts.Designer.cs">
       <DependentUpon>device_WorkShifts.cs</DependentUpon>
     </Compile>
-    <Compile Include="ORMDataModelKursachCode\device_WorkTeam.cs" />
-    <Compile Include="ORMDataModelKursachCode\device_WorkTeam.Designer.cs">
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_WorkTeam.cs" />
+    <Compile Include="DB\ORMDataModelDBKursachCode\device_WorkTeam.Designer.cs">
       <DependentUpon>device_WorkTeam.cs</DependentUpon>
     </Compile>
-    <Compile Include="ORMDataModelKursachCode\sysdiagrams.cs" />
-    <Compile Include="ORMDataModelKursachCode\sysdiagrams.Designer.cs">
+    <Compile Include="DB\ORMDataModelDBKursachCode\MachineView.cs" />
+    <Compile Include="DB\ORMDataModelDBKursachCode\MachineView.Designer.cs">
+      <DependentUpon>MachineView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DB\ORMDataModelDBKursachCode\OperationsView.cs" />
+    <Compile Include="DB\ORMDataModelDBKursachCode\OperationsView.Designer.cs">
+      <DependentUpon>OperationsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DB\ORMDataModelDBKursachCode\ProductionView.cs" />
+    <Compile Include="DB\ORMDataModelDBKursachCode\ProductionView.Designer.cs">
+      <DependentUpon>ProductionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DB\ORMDataModelDBKursachCode\sp_helpdiagramdefinitionResult.cs">
+      <DependentUpon>StoredProcHelper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DB\ORMDataModelDBKursachCode\sp_helpdiagramsResult.cs">
+      <DependentUpon>StoredProcHelper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DB\ORMDataModelDBKursachCode\StoredProcHelper.cs" />
+    <Compile Include="DB\ORMDataModelDBKursachCode\sysdiagrams.cs" />
+    <Compile Include="DB\ORMDataModelDBKursachCode\sysdiagrams.Designer.cs">
       <DependentUpon>sysdiagrams.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -167,11 +187,23 @@
     <Compile Include="UI\Common\LoadingIndicator.Designer.cs">
       <DependentUpon>LoadingIndicator.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\machineUC1.cs">
+    <Compile Include="UI\machineUserC.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UI\machineUC1.Designer.cs">
-      <DependentUpon>machineUC1.cs</DependentUpon>
+    <Compile Include="UI\machineUserC.Designer.cs">
+      <DependentUpon>machineUserC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\materialUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\materialUC.Designer.cs">
+      <DependentUpon>materialUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\operationsUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\operationsUC.Designer.cs">
+      <DependentUpon>operationsUC.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\positionUI.cs">
       <SubType>UserControl</SubType>
@@ -185,11 +217,53 @@
     <Compile Include="UI\positionUС.Designer.cs">
       <DependentUpon>positionUС.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\productionUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\productionUC.Designer.cs">
+      <DependentUpon>productionUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\productsUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\productsUC.Designer.cs">
+      <DependentUpon>productsUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\typeOfRepairUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\typeOfRepairUC.Designer.cs">
+      <DependentUpon>typeOfRepairUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\typeOperationsUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\typeOperationsUC.Designer.cs">
+      <DependentUpon>typeOperationsUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\TypeUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\TypeUC.Designer.cs">
+      <DependentUpon>TypeUC.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\WinForm\MachineForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UI\WinForm\MachineForm.Designer.cs">
       <DependentUpon>MachineForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\WinForm\MaterialForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\WinForm\MaterialForm.Designer.cs">
+      <DependentUpon>MaterialForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\WinForm\OperationsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\WinForm\OperationsForm.Designer.cs">
+      <DependentUpon>OperationsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\WinForm\PositionForm.cs">
       <SubType>Form</SubType>
@@ -197,9 +271,48 @@
     <Compile Include="UI\WinForm\PositionForm.Designer.cs">
       <DependentUpon>PositionForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="mainForm.resx">
-      <DependentUpon>mainForm.cs</DependentUpon>
-    </EmbeddedResource>
+    <Compile Include="UI\WinForm\ProductionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\WinForm\ProductionForm.Designer.cs">
+      <DependentUpon>ProductionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\WinForm\ProductsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\WinForm\ProductsForm.Designer.cs">
+      <DependentUpon>ProductsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\WinForm\TypeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\WinForm\TypeForm.Designer.cs">
+      <DependentUpon>TypeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\WinForm\TypeOfRepairForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\WinForm\TypeOfRepairForm.Designer.cs">
+      <DependentUpon>TypeOfRepairForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\WinForm\TypeOperationsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\WinForm\TypeOperationsForm.Designer.cs">
+      <DependentUpon>TypeOperationsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\WinForm\WorkShiftsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\WinForm\WorkShiftsForm.Designer.cs">
+      <DependentUpon>WorkShiftsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\workShiftsUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\workShiftsUC.Designer.cs">
+      <DependentUpon>workShiftsUC.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -216,8 +329,14 @@
     <EmbeddedResource Include="UI\Common\LoadingIndicator.resx">
       <DependentUpon>LoadingIndicator.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\machineUC1.resx">
-      <DependentUpon>machineUC1.cs</DependentUpon>
+    <EmbeddedResource Include="UI\machineUserC.resx">
+      <DependentUpon>machineUserC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\materialUC.resx">
+      <DependentUpon>materialUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\operationsUC.resx">
+      <DependentUpon>operationsUC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\positionUI.resx">
       <DependentUpon>positionUI.cs</DependentUpon>
@@ -225,15 +344,57 @@
     <EmbeddedResource Include="UI\positionUС.resx">
       <DependentUpon>positionUС.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\productionUC.resx">
+      <DependentUpon>productionUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\productsUC.resx">
+      <DependentUpon>productsUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\typeOfRepairUC.resx">
+      <DependentUpon>typeOfRepairUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\typeOperationsUC.resx">
+      <DependentUpon>typeOperationsUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\TypeUC.resx">
+      <DependentUpon>TypeUC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\WinForm\MachineForm.resx">
       <DependentUpon>MachineForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\WinForm\MaterialForm.resx">
+      <DependentUpon>MaterialForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\WinForm\OperationsForm.resx">
+      <DependentUpon>OperationsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\WinForm\PositionForm.resx">
       <DependentUpon>PositionForm.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="ORMDataModelKursach.xpo" />
-    <None Include="ORMDataModelKursach.xpo.diagram">
-      <DependentUpon>ORMDataModelKursach.xpo</DependentUpon>
+    <EmbeddedResource Include="UI\WinForm\ProductionForm.resx">
+      <DependentUpon>ProductionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\WinForm\ProductsForm.resx">
+      <DependentUpon>ProductsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\WinForm\TypeForm.resx">
+      <DependentUpon>TypeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\WinForm\TypeOfRepairForm.resx">
+      <DependentUpon>TypeOfRepairForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\WinForm\TypeOperationsForm.resx">
+      <DependentUpon>TypeOperationsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\WinForm\WorkShiftsForm.resx">
+      <DependentUpon>WorkShiftsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\workShiftsUC.resx">
+      <DependentUpon>workShiftsUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DB\ORMDataModelDBKursach.xpo" />
+    <None Include="DB\ORMDataModelDBKursach.xpo.diagram">
+      <DependentUpon>ORMDataModelDBKursach.xpo</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -248,8 +409,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Form\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

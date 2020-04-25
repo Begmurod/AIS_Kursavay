@@ -17,12 +17,44 @@ namespace Kursach.DBKursach
 {
     public static class ConnectionHelper
     {
-        
-       
-        public static string ConnectionString = @"XpoProvider=MSSqlServer;data source=DESKTOP-3JJ2448;user id=begmurod1;password=1;initial catalog=DBKursach;Persist Security Info=true";
-        public static void Connect(DevExpress.Xpo.DB.AutoCreateOption autoCreateOption)
+        static Type[] persistentTypes = new Type[] {
+            typeof(auth_Users),
+            typeof(device_Machine),
+            typeof(device_Operations),
+            typeof(device_Position),
+            typeof(device_Production),
+            typeof(device_Products),
+            typeof(device_ProfileWorkTeam),
+            typeof(device_RepairSchedule),
+            typeof(device_Staff),
+            typeof(device_Type),
+            typeof(device_TypeOfRepair),
+            typeof(device_TypeOperations),
+            typeof(device_TypeWorkTeam),
+            typeof(device_WorkShifts),
+            typeof(device_WorkTeam),
+            typeof(sysdiagrams)
+        };
+        public static Type[] GetPersistentTypes()
         {
-            XpoDefault.DataLayer = XpoDefault.GetDataLayer(ConnectionString, autoCreateOption);
+            Type[] copy = new Type[persistentTypes.Length];
+            Array.Copy(persistentTypes, copy, persistentTypes.Length);
+            return copy;
+        }
+        public static string ConnectionString { get { return System.Configuration.ConfigurationManager.ConnectionStrings["DESKTOP-3JJ2448DBKursach"].ConnectionString; } }
+        public static void Connect(DevExpress.Xpo.DB.AutoCreateOption autoCreateOption, bool threadSafe = false)
+        {
+            if (threadSafe)
+            {
+                var provider = XpoDefault.GetConnectionProvider(ConnectionString, autoCreateOption);
+                var dictionary = new DevExpress.Xpo.Metadata.ReflectionDictionary();
+                dictionary.GetDataStoreSchema(persistentTypes);
+                XpoDefault.DataLayer = new ThreadSafeDataLayer(dictionary, provider);
+            }
+            else
+            {
+                XpoDefault.DataLayer = XpoDefault.GetDataLayer(ConnectionString, autoCreateOption);
+            }
             XpoDefault.Session = null;
         }
         public static DevExpress.Xpo.DB.IDataStore GetConnectionProvider(DevExpress.Xpo.DB.AutoCreateOption autoCreateOption)

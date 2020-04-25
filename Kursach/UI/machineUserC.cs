@@ -10,11 +10,11 @@ using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using DevExpress.Xpo;
 using Kursach.UI.WinForm;
-using Kursach.DBKursach;
+using Kursach.DB.DBKursach;
 
 namespace Kursach.UI
 {
-    public partial class machineUC1 : DevExpress.XtraEditors.XtraUserControl
+    public partial class machineUserC : DevExpress.XtraEditors.XtraUserControl
     {
         #region Для блокировки кнопок. Нужно вынести в отдельный абстрактный класс
         public event EventHandler lockButtons;
@@ -25,19 +25,18 @@ namespace Kursach.UI
             if (lockButtons != null)
                 lockButtons(this, e);
         }
-
-
+        
         public virtual void fireUnlockButtons(EventArgs e)
         {
             if (unlockButtons != null)
                 unlockButtons(this, e);
         }
         #endregion
-        public machineUC1()
+        public machineUserC()
         {
             InitializeComponent();
         }
-        public machineUC1(Control _parent)
+        public machineUserC(Control _parent)
         {
             InitializeComponent();
             Parent = _parent;
@@ -60,7 +59,7 @@ namespace Kursach.UI
             barButtonItemDelete.Enabled = true;
         }
 
-        private void machineUC1_Load(object sender, EventArgs e)
+        private void machineUserC_Load(object sender, EventArgs e)
         {
             loadData();
         }

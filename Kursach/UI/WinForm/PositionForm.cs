@@ -9,7 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using DevExpress.Xpo;
-using Kursach.DBKursach;
+using Kursach.DB;
+using Kursach.DB.DBKursach;
 
 namespace Kursach.WinForm
 {
@@ -95,13 +96,32 @@ namespace Kursach.WinForm
         }
         private void validForm()
         {
-            //TODO  Сделать валидацию формы!!!
-        }
+            formValid = false;
+            //TODO  Сделать валидацию формы formValid = false;
 
-        private void cancelButton_Click(object sender, EventArgs e)
-        {
-            uow.Dispose();
-            Close();
+            List<string> notExistData = new List<string>();
+
+            formValid = dxValidationProvider1.Validate();
+            foreach (Control c in dxValidationProvider1.GetInvalidControls())
+            {
+                notExistData.Add(dxValidationProvider1.GetValidationRule(c).ErrorText);
+            }
+            if (!formValid && notExistData.Count != 0)
+            {
+                int i = 1;
+                string str = string.Empty;
+                foreach (string s in notExistData)
+                {
+                    if (i == 1)
+                        str = string.Format("\n{0}. {1}", i, s);
+                    else
+                        str = string.Format("{0}\n{1}. {2}", str, i, s);
+                    i++;
+                }
+                str = string.Format("Для сохранения записи не хватает данных: {0}", str);
+                XtraMessageBox.Show(str, "Ввод недостающих данных", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+
         }
     }
 }

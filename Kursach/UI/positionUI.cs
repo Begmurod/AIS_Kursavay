@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using DevExpress.Xpo;
 using Kursach.WinForm;
-using Kursach.DBKursach;
+using Kursach.DB.DBKursach;
 
 namespace Kursach.UI
 {

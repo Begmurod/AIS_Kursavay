@@ -95,6 +95,7 @@
             this.nameOperationsTypeTextEdit.TabIndex = 4;
             compareAgainstControlValidationRule1.ErrorText = "Данное поле не должен быть пустым!";
             this.dxValidationProvider1.SetValidationRule(this.nameOperationsTypeTextEdit, compareAgainstControlValidationRule1);
+            this.nameOperationsTypeTextEdit.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.nameOperationsTypeTextEdit_KeyPress);
             // 
             // layoutControlGroup1
             // 

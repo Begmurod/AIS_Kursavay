@@ -10,7 +10,8 @@ using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using DevExpress.Xpo;
 using Kursach.DB;
-using Kursach.DB.DBKursach;
+using Kursach.DB.Kursach;
+using System.Text.RegularExpressions;
 
 namespace Kursach.WinForm
 {
@@ -122,6 +123,19 @@ namespace Kursach.WinForm
                 XtraMessageBox.Show(str, "Ввод недостающих данных", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
 
+        }
+
+        private void NamePositiontextEdit_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            string Symbol = e.KeyChar.ToString();
+            if ((char)e.KeyChar == (Char)Keys.CapsLock) return;
+            if ((char)e.KeyChar == (Char)Keys.Back) return;
+            if (char.IsLetter(e.KeyChar)) return;
+            e.Handled = true;
+            if (!Regex.Match(Symbol, @"[а-яА-Я]|[a-zA-Z]").Success)
+            {
+                e.Handled = true;
+            }
         }
     }
 }

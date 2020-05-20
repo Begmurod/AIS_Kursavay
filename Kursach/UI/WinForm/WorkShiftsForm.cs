@@ -1,6 +1,6 @@
 ﻿using DevExpress.Xpo;
 using DevExpress.XtraEditors;
-using Kursach.DB.DBKursach;
+using Kursach.DB.Kursach;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,6 +8,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -127,6 +128,42 @@ namespace Kursach.UI.WinForm
         {
             uow.Dispose();
             Close();
+        }
+
+        private void WorkingHoursTextEdit_KeyPress(object sender, KeyPressEventArgs e)
+        {
+        char number = e.KeyChar;
+            if (!Char.IsDigit(number) && number != 8 && number != 44) 
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void typeOfShiftTextEdit_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            string Symbol = e.KeyChar.ToString();
+            if ((char)e.KeyChar == (Char)Keys.CapsLock) return;
+            if ((char)e.KeyChar == (Char)Keys.Back) return;
+            if (char.IsLetter(e.KeyChar)) return;
+            e.Handled = true;
+            if (!Regex.Match(Symbol, @"[а-яА-Я]|[a-zA-Z]").Success)
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void shiftTypeTextEdit_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            string Symbol = e.KeyChar.ToString();
+            if ((char)e.KeyChar == (Char)Keys.Space) return;
+            if ((char)e.KeyChar == (Char)Keys.CapsLock) return;
+            if ((char)e.KeyChar == (Char)Keys.Back) return;
+            if (char.IsLetter(e.KeyChar)) return;
+            e.Handled = true;
+            if (!Regex.Match(Symbol, @"[а-яА-Я]|[a-zA-Z]").Success)
+            {
+                e.Handled = true;
+            }
         }
     }
 }

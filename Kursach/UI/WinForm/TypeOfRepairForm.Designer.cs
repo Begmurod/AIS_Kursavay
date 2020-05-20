@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            DevExpress.XtraEditors.DXErrorProvider.CompareAgainstControlValidationRule compareAgainstControlValidationRule2 = new DevExpress.XtraEditors.DXErrorProvider.CompareAgainstControlValidationRule();
+            DevExpress.XtraEditors.DXErrorProvider.CompareAgainstControlValidationRule compareAgainstControlValidationRule1 = new DevExpress.XtraEditors.DXErrorProvider.CompareAgainstControlValidationRule();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.cancelButton = new DevExpress.XtraEditors.SimpleButton();
             this.addButton = new DevExpress.XtraEditors.SimpleButton();
@@ -93,8 +93,9 @@
             this.nameTextEdit.Size = new System.Drawing.Size(214, 20);
             this.nameTextEdit.StyleController = this.layoutControl1;
             this.nameTextEdit.TabIndex = 4;
-            compareAgainstControlValidationRule2.ErrorText = "Данное поле не должен быть пустым!";
-            this.dxValidationProvider1.SetValidationRule(this.nameTextEdit, compareAgainstControlValidationRule2);
+            compareAgainstControlValidationRule1.ErrorText = "Данное поле не должен быть пустым!";
+            this.dxValidationProvider1.SetValidationRule(this.nameTextEdit, compareAgainstControlValidationRule1);
+            this.nameTextEdit.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.nameTextEdit_KeyPress);
             // 
             // layoutControlGroup1
             // 

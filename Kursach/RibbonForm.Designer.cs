@@ -29,25 +29,32 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RibbonForm));
             this.splitContainerControl = new DevExpress.XtraEditors.SplitContainerControl();
             this.navBarControl = new DevExpress.XtraNavBar.NavBarControl();
+            this.reportsGroup = new DevExpress.XtraNavBar.NavBarGroup();
+            this.navBarItem13 = new DevExpress.XtraNavBar.NavBarItem();
+            this.accountingGroup = new DevExpress.XtraNavBar.NavBarGroup();
+            this.workShifts = new DevExpress.XtraNavBar.NavBarItem();
+            this.Position = new DevExpress.XtraNavBar.NavBarItem();
+            this.users = new DevExpress.XtraNavBar.NavBarItem();
+            this.staff = new DevExpress.XtraNavBar.NavBarItem();
+            this.profileWorkTeam = new DevExpress.XtraNavBar.NavBarItem();
+            this.typeWorkTeam = new DevExpress.XtraNavBar.NavBarItem();
+            this.workTeam = new DevExpress.XtraNavBar.NavBarItem();
+            this.eventsItem = new DevExpress.XtraNavBar.NavBarItem();
             this.equipmentGroup = new DevExpress.XtraNavBar.NavBarGroup();
             this.Products = new DevExpress.XtraNavBar.NavBarItem();
             this.Production = new DevExpress.XtraNavBar.NavBarItem();
             this.material = new DevExpress.XtraNavBar.NavBarItem();
-            this.planGroup = new DevExpress.XtraNavBar.NavBarGroup();
-            this.monthPlanNavItem = new DevExpress.XtraNavBar.NavBarItem();
-            this.yearPlanItem = new DevExpress.XtraNavBar.NavBarItem();
-            this.accountingGroup = new DevExpress.XtraNavBar.NavBarGroup();
-            this.workShifts = new DevExpress.XtraNavBar.NavBarItem();
-            this.Position = new DevExpress.XtraNavBar.NavBarItem();
-            this.eventsGroup = new DevExpress.XtraNavBar.NavBarGroup();
-            this.eventsItem = new DevExpress.XtraNavBar.NavBarItem();
-            this.reportsGroup = new DevExpress.XtraNavBar.NavBarGroup();
             this.aggregates = new DevExpress.XtraNavBar.NavBarGroup();
             this.type = new DevExpress.XtraNavBar.NavBarItem();
             this.Machine = new DevExpress.XtraNavBar.NavBarItem();
             this.Operations = new DevExpress.XtraNavBar.NavBarItem();
+            this.typeOperations = new DevExpress.XtraNavBar.NavBarItem();
+            this.repairSchedule = new DevExpress.XtraNavBar.NavBarItem();
+            this.monthPlanNavItem = new DevExpress.XtraNavBar.NavBarItem();
+            this.yearPlanItem = new DevExpress.XtraNavBar.NavBarItem();
             this.controlFrqItem = new DevExpress.XtraNavBar.NavBarItem();
             this.actsItem = new DevExpress.XtraNavBar.NavBarItem();
             this.findRequestItem = new DevExpress.XtraNavBar.NavBarItem();
@@ -78,7 +85,7 @@
             this.navBarItem10 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem11 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem12 = new DevExpress.XtraNavBar.NavBarItem();
-            this.typeOperations = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem3 = new DevExpress.XtraNavBar.NavBarItem();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl)).BeginInit();
             this.splitContainerControl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl)).BeginInit();
@@ -97,18 +104,16 @@
             this.splitContainerControl.Panel2.Controls.Add(this.mainContainer);
             this.splitContainerControl.Panel2.Text = "Panel2";
             this.splitContainerControl.Size = new System.Drawing.Size(1244, 545);
-            this.splitContainerControl.SplitterPosition = 235;
+            this.splitContainerControl.SplitterPosition = 229;
             this.splitContainerControl.TabIndex = 0;
             this.splitContainerControl.Text = "splitContainerControl1";
             // 
             // navBarControl
             // 
-            this.navBarControl.ActiveGroup = this.aggregates;
+            this.navBarControl.ActiveGroup = this.reportsGroup;
             this.navBarControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.navBarControl.Groups.AddRange(new DevExpress.XtraNavBar.NavBarGroup[] {
-            this.planGroup,
             this.accountingGroup,
-            this.eventsGroup,
             this.reportsGroup,
             this.equipmentGroup,
             this.aggregates});
@@ -127,15 +132,114 @@
             this.Operations,
             this.Position,
             this.material,
-            this.typeOperations});
+            this.typeOperations,
+            this.users,
+            this.staff,
+            this.profileWorkTeam,
+            this.repairSchedule,
+            this.typeWorkTeam,
+            this.workTeam,
+            this.navBarItem13});
             this.navBarControl.Location = new System.Drawing.Point(0, 0);
             this.navBarControl.Name = "navBarControl";
-            this.navBarControl.OptionsNavPane.ExpandedWidth = 235;
+            this.navBarControl.OptionsNavPane.ExpandedWidth = 229;
             this.navBarControl.PaintStyleKind = DevExpress.XtraNavBar.NavBarViewKind.NavigationPane;
-            this.navBarControl.Size = new System.Drawing.Size(235, 533);
+            this.navBarControl.Size = new System.Drawing.Size(229, 533);
             this.navBarControl.StoreDefaultPaintStyleName = true;
             this.navBarControl.TabIndex = 1;
             this.navBarControl.Text = "navBarControl1";
+            // 
+            // reportsGroup
+            // 
+            this.reportsGroup.Caption = "Отчеты";
+            this.reportsGroup.Expanded = true;
+            this.reportsGroup.GroupCaptionUseImage = DevExpress.XtraNavBar.NavBarImage.Large;
+            this.reportsGroup.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem13)});
+            this.reportsGroup.Name = "reportsGroup";
+            // 
+            // navBarItem13
+            // 
+            this.navBarItem13.Caption = "Материлы";
+            this.navBarItem13.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("navBarItem13.ImageOptions.LargeImage")));
+            this.navBarItem13.ImageOptions.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarItem13.ImageOptions.SmallImage")));
+            this.navBarItem13.Name = "navBarItem13";
+            this.navBarItem13.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.navBarItem13_LinkClicked);
+            // 
+            // accountingGroup
+            // 
+            this.accountingGroup.Caption = "Сотрудники";
+            this.accountingGroup.GroupCaptionUseImage = DevExpress.XtraNavBar.NavBarImage.Large;
+            this.accountingGroup.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
+            new DevExpress.XtraNavBar.NavBarItemLink(this.workShifts),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.Position),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.users),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.staff),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.profileWorkTeam),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.typeWorkTeam),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.workTeam)});
+            this.accountingGroup.Name = "accountingGroup";
+            // 
+            // workShifts
+            // 
+            this.workShifts.Caption = "Рабочие смены";
+            this.workShifts.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("workShifts.ImageOptions.LargeImage")));
+            this.workShifts.ImageOptions.SmallImage = ((System.Drawing.Image)(resources.GetObject("workShifts.ImageOptions.SmallImage")));
+            this.workShifts.Name = "workShifts";
+            this.workShifts.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.workShifts_LinkClicked);
+            // 
+            // Position
+            // 
+            this.Position.Caption = "Должности";
+            this.Position.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("Position.ImageOptions.LargeImage")));
+            this.Position.ImageOptions.SmallImage = ((System.Drawing.Image)(resources.GetObject("Position.ImageOptions.SmallImage")));
+            this.Position.Name = "Position";
+            this.Position.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.Position_LinkClicked_1);
+            // 
+            // users
+            // 
+            this.users.Caption = "Пользователи";
+            this.users.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("users.ImageOptions.LargeImage")));
+            this.users.ImageOptions.SmallImage = ((System.Drawing.Image)(resources.GetObject("users.ImageOptions.SmallImage")));
+            this.users.Name = "users";
+            this.users.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.users_LinkClicked);
+            // 
+            // staff
+            // 
+            this.staff.Caption = "Сотрудники";
+            this.staff.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("staff.ImageOptions.LargeImage")));
+            this.staff.ImageOptions.SmallImage = ((System.Drawing.Image)(resources.GetObject("staff.ImageOptions.SmallImage")));
+            this.staff.Name = "staff";
+            this.staff.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.staff_LinkClicked);
+            // 
+            // profileWorkTeam
+            // 
+            this.profileWorkTeam.Caption = "Профиль бригады";
+            this.profileWorkTeam.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("profileWorkTeam.ImageOptions.LargeImage")));
+            this.profileWorkTeam.ImageOptions.SmallImage = ((System.Drawing.Image)(resources.GetObject("profileWorkTeam.ImageOptions.SmallImage")));
+            this.profileWorkTeam.Name = "profileWorkTeam";
+            this.profileWorkTeam.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.profileWorkTeam_LinkClicked);
+            // 
+            // typeWorkTeam
+            // 
+            this.typeWorkTeam.Caption = "Тип бригады";
+            this.typeWorkTeam.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("typeWorkTeam.ImageOptions.LargeImage")));
+            this.typeWorkTeam.ImageOptions.SmallImage = ((System.Drawing.Image)(resources.GetObject("typeWorkTeam.ImageOptions.SmallImage")));
+            this.typeWorkTeam.Name = "typeWorkTeam";
+            this.typeWorkTeam.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.typeWorkTeam_LinkClicked);
+            // 
+            // workTeam
+            // 
+            this.workTeam.Caption = "Бригада";
+            this.workTeam.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("workTeam.ImageOptions.LargeImage")));
+            this.workTeam.ImageOptions.SmallImage = ((System.Drawing.Image)(resources.GetObject("workTeam.ImageOptions.SmallImage")));
+            this.workTeam.Name = "workTeam";
+            this.workTeam.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.workTeam_LinkClicked);
+            // 
+            // eventsItem
+            // 
+            this.eventsItem.Caption = "События";
+            this.eventsItem.Name = "eventsItem";
             // 
             // equipmentGroup
             // 
@@ -150,31 +254,76 @@
             // Products
             // 
             this.Products.Caption = "Продукт";
+            this.Products.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("Products.ImageOptions.LargeImage")));
+            this.Products.ImageOptions.SmallImage = ((System.Drawing.Image)(resources.GetObject("Products.ImageOptions.SmallImage")));
             this.Products.Name = "Products";
             this.Products.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.Products_LinkClicked);
             // 
             // Production
             // 
             this.Production.Caption = "Производства продукции";
+            this.Production.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("Production.ImageOptions.LargeImage")));
+            this.Production.ImageOptions.SmallImage = ((System.Drawing.Image)(resources.GetObject("Production.ImageOptions.SmallImage")));
             this.Production.Name = "Production";
             this.Production.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.Production_LinkClicked);
             // 
             // material
             // 
             this.material.Caption = "Материалы";
+            this.material.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("material.ImageOptions.LargeImage")));
+            this.material.ImageOptions.SmallImage = ((System.Drawing.Image)(resources.GetObject("material.ImageOptions.SmallImage")));
             this.material.Name = "material";
             this.material.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.material_LinkClicked);
             // 
-            // planGroup
+            // aggregates
             // 
-            this.planGroup.Caption = "Экраны";
-            this.planGroup.GroupCaptionUseImage = DevExpress.XtraNavBar.NavBarImage.Large;
-            this.planGroup.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.SmallIconsText;
-            this.planGroup.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
-            new DevExpress.XtraNavBar.NavBarItemLink(this.monthPlanNavItem),
-            new DevExpress.XtraNavBar.NavBarItemLink(this.yearPlanItem)});
-            this.planGroup.Name = "planGroup";
-            this.planGroup.Visible = false;
+            this.aggregates.Caption = "Агрегаты";
+            this.aggregates.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
+            new DevExpress.XtraNavBar.NavBarItemLink(this.type),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.Machine),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.Operations),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.typeOperations),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.repairSchedule)});
+            this.aggregates.Name = "aggregates";
+            // 
+            // type
+            // 
+            this.type.Caption = "Тип";
+            this.type.Name = "type";
+            this.type.Visible = false;
+            this.type.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.type_LinkClicked_1);
+            // 
+            // Machine
+            // 
+            this.Machine.Caption = "Агрегаты";
+            this.Machine.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("Machine.ImageOptions.LargeImage")));
+            this.Machine.ImageOptions.SmallImage = ((System.Drawing.Image)(resources.GetObject("Machine.ImageOptions.SmallImage")));
+            this.Machine.Name = "Machine";
+            this.Machine.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.Machine_LinkClicked_1);
+            // 
+            // Operations
+            // 
+            this.Operations.Caption = "Операции";
+            this.Operations.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("Operations.ImageOptions.LargeImage")));
+            this.Operations.ImageOptions.SmallImage = ((System.Drawing.Image)(resources.GetObject("Operations.ImageOptions.SmallImage")));
+            this.Operations.Name = "Operations";
+            this.Operations.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.Operations_LinkClicked_1);
+            // 
+            // typeOperations
+            // 
+            this.typeOperations.Caption = "Тип операции";
+            this.typeOperations.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("typeOperations.ImageOptions.LargeImage")));
+            this.typeOperations.ImageOptions.SmallImage = ((System.Drawing.Image)(resources.GetObject("typeOperations.ImageOptions.SmallImage")));
+            this.typeOperations.Name = "typeOperations";
+            this.typeOperations.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.typeOperations_LinkClicked);
+            // 
+            // repairSchedule
+            // 
+            this.repairSchedule.Caption = "Ремонт агрегата";
+            this.repairSchedule.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("repairSchedule.ImageOptions.LargeImage")));
+            this.repairSchedule.ImageOptions.SmallImage = ((System.Drawing.Image)(resources.GetObject("repairSchedule.ImageOptions.SmallImage")));
+            this.repairSchedule.Name = "repairSchedule";
+            this.repairSchedule.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.repairSchedule_LinkClicked);
             // 
             // monthPlanNavItem
             // 
@@ -188,75 +337,6 @@
             this.yearPlanItem.Caption = "Годовой план";
             this.yearPlanItem.Name = "yearPlanItem";
             this.yearPlanItem.Visible = false;
-            // 
-            // accountingGroup
-            // 
-            this.accountingGroup.Caption = "Сотрудники";
-            this.accountingGroup.GroupCaptionUseImage = DevExpress.XtraNavBar.NavBarImage.Large;
-            this.accountingGroup.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
-            new DevExpress.XtraNavBar.NavBarItemLink(this.workShifts),
-            new DevExpress.XtraNavBar.NavBarItemLink(this.Position)});
-            this.accountingGroup.Name = "accountingGroup";
-            // 
-            // workShifts
-            // 
-            this.workShifts.Caption = "Рабочие смены";
-            this.workShifts.Name = "workShifts";
-            this.workShifts.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.workShifts_LinkClicked);
-            // 
-            // Position
-            // 
-            this.Position.Caption = "Должности";
-            this.Position.Name = "Position";
-            this.Position.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.Position_LinkClicked_1);
-            // 
-            // eventsGroup
-            // 
-            this.eventsGroup.Caption = "Журналы";
-            this.eventsGroup.GroupCaptionUseImage = DevExpress.XtraNavBar.NavBarImage.Large;
-            this.eventsGroup.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
-            new DevExpress.XtraNavBar.NavBarItemLink(this.eventsItem)});
-            this.eventsGroup.Name = "eventsGroup";
-            // 
-            // eventsItem
-            // 
-            this.eventsItem.Caption = "События";
-            this.eventsItem.Name = "eventsItem";
-            // 
-            // reportsGroup
-            // 
-            this.reportsGroup.Caption = "Отчеты";
-            this.reportsGroup.GroupCaptionUseImage = DevExpress.XtraNavBar.NavBarImage.Large;
-            this.reportsGroup.Name = "reportsGroup";
-            // 
-            // aggregates
-            // 
-            this.aggregates.Caption = "Агрегаты";
-            this.aggregates.Expanded = true;
-            this.aggregates.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
-            new DevExpress.XtraNavBar.NavBarItemLink(this.type),
-            new DevExpress.XtraNavBar.NavBarItemLink(this.Machine),
-            new DevExpress.XtraNavBar.NavBarItemLink(this.Operations),
-            new DevExpress.XtraNavBar.NavBarItemLink(this.typeOperations)});
-            this.aggregates.Name = "aggregates";
-            // 
-            // type
-            // 
-            this.type.Caption = "Тип";
-            this.type.Name = "type";
-            this.type.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.type_LinkClicked_1);
-            // 
-            // Machine
-            // 
-            this.Machine.Caption = "Агрегаты";
-            this.Machine.Name = "Machine";
-            this.Machine.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.Machine_LinkClicked_1);
-            // 
-            // Operations
-            // 
-            this.Operations.Caption = "Операции";
-            this.Operations.Name = "Operations";
-            this.Operations.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.Operations_LinkClicked_1);
             // 
             // controlFrqItem
             // 
@@ -279,7 +359,7 @@
             this.mainContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainContainer.Location = new System.Drawing.Point(0, 0);
             this.mainContainer.Name = "mainContainer";
-            this.mainContainer.Size = new System.Drawing.Size(987, 533);
+            this.mainContainer.Size = new System.Drawing.Size(993, 533);
             this.mainContainer.TabIndex = 0;
             // 
             // ribbonControl
@@ -440,11 +520,10 @@
             this.navBarItem12.Caption = "Тип ";
             this.navBarItem12.Name = "navBarItem12";
             // 
-            // typeOperations
+            // navBarItem3
             // 
-            this.typeOperations.Caption = "Тип операции";
-            this.typeOperations.Name = "typeOperations";
-            this.typeOperations.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.typeOperations_LinkClicked);
+            this.navBarItem3.Caption = "Рабочие смены";
+            this.navBarItem3.Name = "navBarItem3";
             // 
             // RibbonForm
             // 
@@ -478,7 +557,6 @@
         private DevExpress.XtraBars.Ribbon.RibbonControl ribbonControl;
         private DevExpress.XtraBars.Ribbon.RibbonStatusBar ribbonStatusBar;
         private DevExpress.XtraNavBar.NavBarControl navBarControl;
-        private DevExpress.XtraNavBar.NavBarGroup planGroup;
         private DevExpress.XtraNavBar.NavBarItem monthPlanNavItem;
         private DevExpress.XtraEditors.PanelControl mainContainer;
         private DevExpress.XtraBars.Ribbon.RibbonPage mainHelpPage;
@@ -490,7 +568,6 @@
         private DevExpress.XtraNavBar.NavBarItem yearPlanItem;
         private DevExpress.XtraNavBar.NavBarGroup accountingGroup;
         private DevExpress.XtraNavBar.NavBarItem workShifts;
-        private DevExpress.XtraNavBar.NavBarGroup eventsGroup;
         private DevExpress.XtraNavBar.NavBarItem eventsItem;
         private DevExpress.XtraNavBar.NavBarItem controlFrqItem;
         private DevExpress.XtraNavBar.NavBarItem actsItem;
@@ -524,5 +601,13 @@
         private DevExpress.XtraNavBar.NavBarItem Position;
         private DevExpress.XtraNavBar.NavBarItem material;
         private DevExpress.XtraNavBar.NavBarItem typeOperations;
+        private DevExpress.XtraNavBar.NavBarItem users;
+        private DevExpress.XtraNavBar.NavBarItem staff;
+        private DevExpress.XtraNavBar.NavBarItem profileWorkTeam;
+        private DevExpress.XtraNavBar.NavBarItem repairSchedule;
+        private DevExpress.XtraNavBar.NavBarItem typeWorkTeam;
+        private DevExpress.XtraNavBar.NavBarItem workTeam;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem13;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem3;
     }
 }

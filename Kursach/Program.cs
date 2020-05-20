@@ -1,5 +1,6 @@
 ﻿using DevExpress.Xpo;
 using DevExpress.Xpo.DB;
+using Kursach.UI.WinForm;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,9 +23,9 @@ namespace Kursach
             try
             {
                 XpoDefault.Session = null;
-                //XpoDefault.DataLayer = new SimpleDataLayer(new DataCacheNode(new DataCacheRoot(XpoDefault.GetConnectionProvider(@"XpoProvider=MSSqlServer;data source=.\;
-                //    integrated security=false;initial catalog=DBKursach;User Id=begmurod;Password=1", AutoCreateOption.None))));
-                XpoDefault.DataLayer = new SimpleDataLayer(new DataCacheNode(new DataCacheRoot(XpoDefault.GetConnectionProvider(Properties.Settings.Default.ConnectionString, AutoCreateOption.None))));
+                XpoDefault.DataLayer = new SimpleDataLayer(new DataCacheNode(new DataCacheRoot(XpoDefault.GetConnectionProvider(@"XpoProvider=MSSqlServer;data source=.\;
+                    integrated security=false;initial catalog=Kursach;User Id=begmurod;Password=1", AutoCreateOption.None))));
+                //XpoDefault.DataLayer = new SimpleDataLayer(new DataCacheNode(new DataCacheRoot(XpoDefault.GetConnectionProvider(Properties.Settings.Default.ConnectionString, AutoCreateOption.None))));
             }
             catch (Exception e)
             {

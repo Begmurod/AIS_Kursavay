@@ -22,11 +22,17 @@ namespace Kursach
         private Lazy<operationsUC> operationsUC;
         private Lazy<productsUC> productsUC;
         private Lazy<productionUC> productionUC;
-        private Lazy<TypeUC> TypeUC;
+        
         private Lazy<typeOfRepairUC> typeOfRepairUC;
         private Lazy<workShiftsUC> workShiftsUC;
         private Lazy<materialUC> materialUC;
         private Lazy<typeOperationsUC> typeOperationsUC;
+        private Lazy<usersUC> usersUC;
+        private Lazy<staffUC> staffUC;
+        private Lazy<profileWorkTeamUC> profileWorkTeamUC;
+        private Lazy<repairScheduleUC> repairScheduleUC;
+        private Lazy<typeWorkTeamUC> typeWorkTeamUC;
+        private Lazy<workTeamUC> workTeamUC;
 
         public RibbonForm()
         {
@@ -120,19 +126,20 @@ namespace Kursach
         }
         void initTypeUC()
         {
-            hideAllContainerControls(mainContainer);
-            ribbonControl.UnMergeRibbon();
-            SplashScreenManager.ShowForm(typeof(UI.Common.LoadingIndicator));
-            if (TypeUC == null)
-            {
-                TypeUC = new Lazy<TypeUC>(() => new TypeUC(mainContainer));
-                TypeUC.Value.Dock = DockStyle.Fill;
-            }
-            Text = "Kursach - Типы агрегатов";
-            TypeUC.Value.Show();
-            ribbonControl.MergeRibbon(TypeUC.Value.dimensionRibbonControl);
-            ribbonControl.SelectedPage = TypeUC.Value.dimensionRibbonControl.SelectedPage;
-            SplashScreenManager.CloseForm();
+            //hideAllContainerControls(mainContainer);
+            //ribbonControl.UnMergeRibbon();
+            //SplashScreenManager.ShowForm(typeof(UI.Common.LoadingIndicator));
+            //if (TypeUC == null)
+            //{
+            //    TypeUC = new Lazy<TypeUC>(() => new TypeUC(mainContainer));
+            //    TypeUC.Value.Dock = DockStyle.Fill;
+            //}
+            //Text = "Kursach - Типы агрегатов";
+            //TypeUC.Value.Show();
+            //ribbonControl.MergeRibbon(TypeUC.Value.dimensionRibbonControl);
+            //ribbonControl.SelectedPage = TypeUC.Value.dimensionRibbonControl.SelectedPage;
+            //SplashScreenManager.CloseForm();
+            
         }
         void initTypeOfRepairUC()
         {
@@ -198,12 +205,125 @@ namespace Kursach
             ribbonControl.SelectedPage = typeOperationsUC.Value.typeOperationsRibbonControl.SelectedPage;
             SplashScreenManager.CloseForm();
         }
+        void initUsersUC()
+        {
+            hideAllContainerControls(mainContainer);
+            ribbonControl.UnMergeRibbon();
+            SplashScreenManager.ShowForm(typeof(UI.Common.LoadingIndicator));
+            if (usersUC == null)
+            {
+                usersUC = new Lazy<usersUC>(() => new usersUC(mainContainer));
+                usersUC.Value.Dock = DockStyle.Fill;
+            }
+            Text = "Kursach - Типы агрегатов";
+            usersUC.Value.Show();
+            ribbonControl.MergeRibbon(usersUC.Value.usersRibbonControl);
+            ribbonControl.SelectedPage = usersUC.Value.usersRibbonControl.SelectedPage;
+            SplashScreenManager.CloseForm();
+        }
+        void initSteffUC()
+        {
+            hideAllContainerControls(mainContainer);
+            ribbonControl.UnMergeRibbon();
+            SplashScreenManager.ShowForm(typeof(UI.Common.LoadingIndicator));
+            if (staffUC == null)
+            {
+                staffUC = new Lazy<staffUC>(() => new staffUC(mainContainer));
+                staffUC.Value.Dock = DockStyle.Fill;
+            }
+            Text = "Kursach - Типы агрегатов";
+            staffUC.Value.Show();
+            ribbonControl.MergeRibbon(staffUC.Value.usersRibbonControl);
+            ribbonControl.SelectedPage = staffUC.Value.usersRibbonControl.SelectedPage;
+            SplashScreenManager.CloseForm();
+        }
+        void initProfileWorkTeamUC()
+        {
+            hideAllContainerControls(mainContainer);
+            ribbonControl.UnMergeRibbon();
+            SplashScreenManager.ShowForm(typeof(UI.Common.LoadingIndicator));
+            if (profileWorkTeamUC == null)
+            {
+                profileWorkTeamUC = new Lazy<profileWorkTeamUC>(() => new profileWorkTeamUC(mainContainer));
+                profileWorkTeamUC.Value.Dock = DockStyle.Fill;
+            }
+            Text = "Kursach - Профиль бригады";
+            profileWorkTeamUC.Value.Show();
+            ribbonControl.MergeRibbon(profileWorkTeamUC.Value.profileWorkTeamRibbonControl);
+            ribbonControl.SelectedPage = profileWorkTeamUC.Value.profileWorkTeamRibbonControl.SelectedPage;
+            SplashScreenManager.CloseForm();
+        }
+        void initRepairScheduleUC()
+        {
+            hideAllContainerControls(mainContainer);
+            ribbonControl.UnMergeRibbon();
+            SplashScreenManager.ShowForm(typeof(UI.Common.LoadingIndicator));
+            if (repairScheduleUC == null)
+            {
+                repairScheduleUC = new Lazy<repairScheduleUC>(() => new repairScheduleUC(mainContainer));
+                repairScheduleUC.Value.Dock = DockStyle.Fill;
+            }
+            Text = "Kursach - Ремон агрегата";
+            repairScheduleUC.Value.Show();
+            ribbonControl.MergeRibbon(repairScheduleUC.Value.repairScheduleRibbonControl);
+            ribbonControl.SelectedPage = repairScheduleUC.Value.repairScheduleRibbonControl.SelectedPage;
+            SplashScreenManager.CloseForm();
+        }
+        void initTypeWorkTeamUC()
+        {
+            hideAllContainerControls(mainContainer);
+            ribbonControl.UnMergeRibbon();
+            SplashScreenManager.ShowForm(typeof(UI.Common.LoadingIndicator));
+            if (typeWorkTeamUC == null)
+            {
+                typeWorkTeamUC = new Lazy<typeWorkTeamUC>(() => new typeWorkTeamUC(mainContainer));
+                typeWorkTeamUC.Value.Dock = DockStyle.Fill;
+            }
+            Text = "Kursach - Тип бригады";
+            typeWorkTeamUC.Value.Show();
+            ribbonControl.MergeRibbon(typeWorkTeamUC.Value.typeWorkTeamRibbonControl);
+            ribbonControl.SelectedPage = typeWorkTeamUC.Value.typeWorkTeamRibbonControl.SelectedPage;
+            SplashScreenManager.CloseForm();
+        }
+        void initWorkTeamUC()
+        {
+            hideAllContainerControls(mainContainer);
+            ribbonControl.UnMergeRibbon();
+            SplashScreenManager.ShowForm(typeof(UI.Common.LoadingIndicator));
+            if (workTeamUC == null)
+            {
+                workTeamUC = new Lazy<workTeamUC>(() => new workTeamUC(mainContainer));
+                workTeamUC.Value.Dock = DockStyle.Fill;
+            }
+            Text = "Kursach - Тип бригады";
+            workTeamUC.Value.Show();
+            ribbonControl.MergeRibbon(workTeamUC.Value.workTeamRibbonControl);
+            ribbonControl.SelectedPage = workTeamUC.Value.workTeamRibbonControl.SelectedPage;
+            SplashScreenManager.CloseForm();
+        }
+        //void initReportUC()
+        //{
+        //    hideAllContainerControls(mainContainer);
+        //    ribbonControl.UnMergeRibbon();
+        //    SplashScreenManager.ShowForm(typeof(UI.Common.LoadingIndicator));
+        //    if (reportUC == null)
+        //    {
+        //        reportUC = new Lazy<reportUC>(() => new reportUC(ribbonControl1));
+        //        reportUC.Value.Dock = DockStyle.Fill;
+        //    }
+        //    Text = "Kursach - Тип бригады";
+        //    reportUC.Value.Show();
+        //    ribbonControl.MergeRibbon(reportUC.Value.ribbonControl1);
+        //    ribbonControl.SelectedPage = reportUC.Value.ribbonControl1.SelectedPage;
+        //    SplashScreenManager.CloseForm();
+        //}
         private void RibbonForm_Load(object sender, EventArgs e)
         {
             //identityInfo.Caption = Security.Session.CurrentWindowsPrincipal.Identity.Name;
             //databaseInfo.Caption = string.Format("{0}\\{1}", DB.Session.currentDatabaseServer, Database.Session.currentDatabase);
 
-            initpositionUI();
+            //initOperationsUC();
+            initWorkShiftsUC();
         }
         
         private void Products_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
@@ -259,6 +379,43 @@ namespace Kursach
         private void typeOperations_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
         {
             initTypeOperationsUC();
+        }
+
+        private void users_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            initUsersUC();
+        }
+
+        private void staff_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            initSteffUC();
+        }
+
+        private void profileWorkTeam_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            initProfileWorkTeamUC();
+        }
+
+        private void repairSchedule_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            initRepairScheduleUC();
+        }
+
+        private void typeWorkTeam_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            initTypeWorkTeamUC();
+        }
+
+        private void workTeam_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            initWorkTeamUC();
+        }
+
+        private void navBarItem13_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            this.Hide();
+            Form1 Af = new Form1();
+            Af.ShowDialog();
         }
     }
 }

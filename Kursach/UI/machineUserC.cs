@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using DevExpress.Xpo;
 using Kursach.UI.WinForm;
-using Kursach.DB.DBKursach;
+using Kursach.DB.Kursach;
 
 namespace Kursach.UI
 {
@@ -72,12 +72,12 @@ namespace Kursach.UI
                 DevExpress.Xpo.DB.SelectedData _positionData = u.ExecuteQuery(string.Format(@"
                 SELECT [GUID]
       ,[Name]
-      ,[TypeGUID]
+      ,[NameType]
       ,[OperationsGUID]
       ,[CommissioningDate]
       ,[DateOfChange]
       ,[DeletedDate]
-  FROM [dbo].[MachineView]
+  FROM [dbo].[AgregatView]
   WHERE [DeletedDate] is null"
                 ));
                 machineDataView.LoadData(_positionData);
@@ -119,7 +119,7 @@ namespace Kursach.UI
         {
             using (UnitOfWork u = new UnitOfWork())
             {
-                device_Machine currentMachine = u.GetObjectByKey<device_Machine>((Guid)machineGridView.GetFocusedRowCellValue("GUID"));
+                device_Agregat currentMachine = u.GetObjectByKey<device_Agregat>((Guid)machineGridView.GetFocusedRowCellValue("GUID"));
                 DialogResult d = XtraMessageBox.Show(string.Format("Удалить агрегат {0} ", currentMachine.Name), "Подтверждение действия", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (d == DialogResult.Yes)
                 {
@@ -141,6 +141,11 @@ namespace Kursach.UI
             {
                 fireUnlockButtons(new EventArgs());
             }
+        }
+
+        private void machineUserC_Load_1(object sender, EventArgs e)
+        {
+            loadData();
         }
     }
 }

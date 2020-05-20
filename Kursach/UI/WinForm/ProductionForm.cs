@@ -9,9 +9,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using DevExpress.Xpo;
-using Kursach.DB.DBKursach;
 using DevExpress.Xpo.DB;
 using DevExpress.XtraEditors.DXErrorProvider;
+using System.Text.RegularExpressions;
+using Kursach.DB.Kursach;
 
 namespace Kursach.UI.WinForm
 {
@@ -83,8 +84,8 @@ namespace Kursach.UI.WinForm
             }
             using (Session u = new Session())
             {
-                SelectedData productsGUIDData = u.ExecuteQuery(@"SELECT GUID,NameOperations FROM [device].Operations WHERE[DeletedDate] is null");
-                operationsGUIDDataView.LoadData(productsGUIDData);
+                SelectedData operationsGUID = u.ExecuteQuery(@"SELECT GUID,NameOperations FROM [device].Operations WHERE[DeletedDate] is null");
+                operationsGUIDDataView.LoadData(operationsGUID);
 
             }
             using (Session u = new Session())
@@ -179,6 +180,38 @@ namespace Kursach.UI.WinForm
         {
             uow.Dispose();
             Close();
+        }
+
+        private void volumeTextEdit_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char number = e.KeyChar;
+            if (!Char.IsDigit(number) && number != 8 && number != 44) // цифры, клавиша BackSpace и запятая
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void volumeMaterialTextEdit_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char number = e.KeyChar;
+            if (!Char.IsDigit(number) && number != 8 && number != 44) // цифры, клавиша BackSpace и запятая
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void unitOfMeasurementTextEdit_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            string Symbol = e.KeyChar.ToString();
+            if ((char)e.KeyChar == (Char)Keys.CapsLock) return;
+            if ((char)e.KeyChar == (Char)Keys.Back) return;
+            if ((char)e.KeyChar == '.') return;
+            if (char.IsLetter(e.KeyChar)) return;
+            e.Handled = true;
+            if (!Regex.Match(Symbol, @"[а-яА-Я]|[a-zA-Z]").Success)
+            {
+                e.Handled = true;
+            }
         }
     }
 }

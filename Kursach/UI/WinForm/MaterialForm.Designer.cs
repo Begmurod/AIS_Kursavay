@@ -107,6 +107,7 @@
             this.nameTextEdit.TabIndex = 4;
             compareAgainstControlValidationRule1.ErrorText = "Данное поле не может быть пустым!";
             this.dxValidationProvider.SetValidationRule(this.nameTextEdit, compareAgainstControlValidationRule1);
+            this.nameTextEdit.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.nameTextEdit_KeyPress);
             // 
             // volumeTextEdit1
             // 
@@ -117,6 +118,7 @@
             this.volumeTextEdit1.TabIndex = 4;
             compareAgainstControlValidationRule2.ErrorText = "Данное поле не может быть пустым!";
             this.dxValidationProvider.SetValidationRule(this.volumeTextEdit1, compareAgainstControlValidationRule2);
+            this.volumeTextEdit1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.volumeTextEdit1_KeyPress);
             // 
             // unitOfMeasurementTextEdit
             // 
@@ -127,6 +129,7 @@
             this.unitOfMeasurementTextEdit.TabIndex = 4;
             compareAgainstControlValidationRule3.ErrorText = "Данное поле не может быть пустым!";
             this.dxValidationProvider.SetValidationRule(this.unitOfMeasurementTextEdit, compareAgainstControlValidationRule3);
+            this.unitOfMeasurementTextEdit.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.unitOfMeasurementTextEdit_KeyPress);
             // 
             // layoutControlGroup1
             // 

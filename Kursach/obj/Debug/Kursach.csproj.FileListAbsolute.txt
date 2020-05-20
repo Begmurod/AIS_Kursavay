@@ -136,3 +136,445 @@ C:\Users\begmu\OneDrive\Рабочий стол\Kursach\Kursach\obj\Debug\Kursac
 C:\Users\begmu\OneDrive\Рабочий стол\Kursach\Kursach\obj\Debug\Kursach.UI.materialUC.resources
 C:\Users\begmu\OneDrive\Рабочий стол\Kursach\Kursach\obj\Debug\Kursach.UI.typeOperationsUC.resources
 C:\Users\begmu\OneDrive\Рабочий стол\Kursach\Kursach\obj\Debug\Kursach.UI.WinForm.TypeOperationsForm.resources
+D:\3 2 cm\Kursach\Kursach\bin\Debug\Kursach.exe.config
+D:\3 2 cm\Kursach\Kursach\bin\Debug\Kursach.exe
+D:\3 2 cm\Kursach\Kursach\bin\Debug\Kursach.pdb
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.BonusSkins.v19.2.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.Data.v19.2.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.Images.v19.2.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.Printing.v19.2.Core.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.Sparkline.v19.2.Core.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.Utils.v19.2.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.Xpo.v19.2.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.XtraBars.v19.2.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.XtraEditors.v19.2.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.XtraGrid.v19.2.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.XtraLayout.v19.2.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.XtraNavBar.v19.2.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.XtraPrinting.v19.2.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.XtraScheduler.v19.2.Core.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.XtraScheduler.v19.2.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.Pdf.v19.2.Core.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.RichEdit.v19.2.Core.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.XtraTreeList.v19.2.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.Office.v19.2.Core.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.Data.v19.2.xml
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.Printing.v19.2.Core.xml
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.Utils.v19.2.xml
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.Xpo.v19.2.xml
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.XtraBars.v19.2.xml
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.XtraEditors.v19.2.xml
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.XtraGrid.v19.2.xml
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.XtraLayout.v19.2.xml
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.XtraNavBar.v19.2.xml
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.XtraPrinting.v19.2.xml
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.XtraScheduler.v19.2.xml
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.XtraScheduler.v19.2.Core.xml
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.Pdf.v19.2.Core.xml
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.RichEdit.v19.2.Core.xml
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.XtraTreeList.v19.2.xml
+D:\3 2 cm\Kursach\Kursach\bin\Debug\DevExpress.Office.v19.2.Core.xml
+D:\3 2 cm\Kursach\Kursach\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\de\DevExpress.Printing.v19.2.Core.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\es\DevExpress.Printing.v19.2.Core.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ja\DevExpress.Printing.v19.2.Core.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ru\DevExpress.Printing.v19.2.Core.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\de\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\es\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ja\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ru\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\de\DevExpress.Utils.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\es\DevExpress.Utils.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ja\DevExpress.Utils.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ru\DevExpress.Utils.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\de\DevExpress.Xpo.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\es\DevExpress.Xpo.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ja\DevExpress.Xpo.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ru\DevExpress.Xpo.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\de\DevExpress.XtraBars.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\es\DevExpress.XtraBars.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ja\DevExpress.XtraBars.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ru\DevExpress.XtraBars.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\de\DevExpress.XtraEditors.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\es\DevExpress.XtraEditors.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ja\DevExpress.XtraEditors.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ru\DevExpress.XtraEditors.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\de\DevExpress.XtraGrid.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\es\DevExpress.XtraGrid.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ja\DevExpress.XtraGrid.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ru\DevExpress.XtraGrid.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\de\DevExpress.XtraLayout.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\es\DevExpress.XtraLayout.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ja\DevExpress.XtraLayout.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ru\DevExpress.XtraLayout.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\de\DevExpress.XtraNavBar.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\es\DevExpress.XtraNavBar.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ja\DevExpress.XtraNavBar.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ru\DevExpress.XtraNavBar.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\de\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\es\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ja\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ru\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\de\DevExpress.XtraScheduler.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\es\DevExpress.XtraScheduler.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ja\DevExpress.XtraScheduler.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ru\DevExpress.XtraScheduler.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\de\DevExpress.XtraScheduler.v19.2.Core.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\es\DevExpress.XtraScheduler.v19.2.Core.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ja\DevExpress.XtraScheduler.v19.2.Core.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ru\DevExpress.XtraScheduler.v19.2.Core.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\de\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\de\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\es\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ja\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ru\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\de\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\es\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ja\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ru\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\de\DevExpress.Office.v19.2.Core.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
+D:\3 2 cm\Kursach\Kursach\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.csprojAssemblyReference.cache
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.Properties.Resources.resources
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.RibbonForm.resources
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.UI.Common.LoadingIndicator.resources
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.UI.machineUserC.resources
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.UI.materialUC.resources
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.UI.operationsUC.resources
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.UI.positionUI.resources
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.UI.positionUС.resources
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.UI.productionUC.resources
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.UI.productsUC.resources
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.UI.typeOfRepairUC.resources
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.UI.typeOperationsUC.resources
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.UI.TypeUC.resources
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.UI.WinForm.MachineForm.resources
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.UI.WinForm.MaterialForm.resources
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.UI.WinForm.OperationsForm.resources
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.WinForm.PositionForm.resources
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.UI.WinForm.ProductionForm.resources
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.UI.WinForm.ProductsForm.resources
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.UI.WinForm.TypeForm.resources
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.UI.WinForm.TypeOfRepairForm.resources
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.UI.WinForm.TypeOperationsForm.resources
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.UI.WinForm.WorkShiftsForm.resources
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.UI.workShiftsUC.resources
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.csproj.GenerateResource.cache
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.exe.licenses
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.csproj.CoreCompileInputs.cache
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.csproj.CopyComplete
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.exe
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.pdb
+D:\3 2 cm\Kursach\Kursach\obj\Debug\Kursach.UI.WinForm.UserForm.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.csprojAssemblyReference.cache
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Interop.CrystalActiveXReportViewerLib11_5.dll
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Interop.CrystalReportViewerWebReportSourceLib.dll
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.csproj.ResolveComReference.cache
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.AfForm.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.Form1.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.Properties.Resources.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.RegForm.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.RibbonForm.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.Common.LoadingIndicator.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.machineUserC.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.materialUC.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.operationsUC.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.positionUI.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.positionUС.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.productionUC.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.productsUC.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.profileWorkTeamUC.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.repairScheduleUC.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.reportUC.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.staffUC.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.typeOfRepairUC.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.typeOperationsUC.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.typeWorkTeamUC.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.usersUC.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.WinForm.MachineForm.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.WinForm.MaterialForm.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.WinForm.OperationsForm.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.WinForm.PositionForm.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.WinForm.ProductionForm.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.WinForm.ProductsForm.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.WinForm.ProfileWorkTeamForm.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.WinForm.RepairScheduleForm.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.WinForm.StaffForm.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.WinForm.TypeOfRepairForm.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.WinForm.TypeOperationsForm.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.WinForm.TypeWorkTeamForm.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.WinForm.UserForm.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.WinForm.WorkShiftsForm.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.WinForm.WorkTeamForm.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.workShiftsUC.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.UI.workTeamUC.resources
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.csproj.GenerateResource.cache
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.exe.licenses
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\RdlCompile.cache
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\RdlCompile.compiled
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.csproj.CoreCompileInputs.cache
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\Kursach.exe.config
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\Kursach.exe
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\Kursach.pdb
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.BonusSkins.v20.1.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.Charts.v20.1.Core.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.CodeParser.v20.1.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.Data.v20.1.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.DataAccess.v20.1.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.DataAccess.v20.1.UI.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.Images.v20.1.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.Office.v20.1.Core.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.PivotGrid.v20.1.Core.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.RichEdit.v20.1.Export.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.Utils.v20.1.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.Utils.v20.1.UI.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.Xpo.v20.1.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraBars.v20.1.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraCharts.v20.1.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraCharts.v20.1.Extensions.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraGauges.v20.1.Core.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraNavBar.v20.1.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraPivotGrid.v20.1.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraReports.v20.1.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraRichEdit.v20.1.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraScheduler.v20.1.Core.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraScheduler.v20.1.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraDiagram.v20.1.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.Diagram.v20.1.Core.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\EnvDTE.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\stdole.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\Microsoft.MSXML.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.Data.v20.1.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.DataAccess.v20.1.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.DataAccess.v20.1.UI.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.Office.v20.1.Core.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.PivotGrid.v20.1.Core.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.Utils.v20.1.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.Utils.v20.1.UI.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.Xpo.v20.1.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraBars.v20.1.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraCharts.v20.1.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraGauges.v20.1.Core.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraNavBar.v20.1.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraPivotGrid.v20.1.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraReports.v20.1.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraRichEdit.v20.1.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraScheduler.v20.1.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraScheduler.v20.1.Core.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.XtraDiagram.v20.1.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.Diagram.v20.1.Core.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.DataAccess.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.DataAccess.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.DataAccess.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.DataAccess.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.Utils.v20.1.UI.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.Utils.v20.1.UI.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.Utils.v20.1.UI.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.Utils.v20.1.UI.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.Xpo.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.Xpo.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.Xpo.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.Xpo.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.XtraCharts.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.XtraCharts.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.XtraCharts.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.XtraCharts.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.XtraReports.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.XtraReports.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.XtraReports.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.XtraReports.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.XtraScheduler.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.XtraScheduler.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.XtraScheduler.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.XtraScheduler.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.XtraScheduler.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.XtraScheduler.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.XtraScheduler.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.XtraScheduler.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\de\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\es\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ja\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\bin\Debug\ru\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.csproj.CopyComplete
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.exe
+D:\3 2 cm\Kursach V2\Kursach\obj\Debug\Kursach.pdb

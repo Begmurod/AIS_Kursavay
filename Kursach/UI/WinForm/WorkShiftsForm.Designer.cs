@@ -28,34 +28,34 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            DevExpress.XtraEditors.DXErrorProvider.CompareAgainstControlValidationRule compareAgainstControlValidationRule1 = new DevExpress.XtraEditors.DXErrorProvider.CompareAgainstControlValidationRule();
+            DevExpress.XtraEditors.DXErrorProvider.CompareAgainstControlValidationRule compareAgainstControlValidationRule2 = new DevExpress.XtraEditors.DXErrorProvider.CompareAgainstControlValidationRule();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.cancelButton = new DevExpress.XtraEditors.SimpleButton();
             this.addButton = new DevExpress.XtraEditors.SimpleButton();
             this.typeOfShiftTextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.WorkingHoursTextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.shiftTypeTextEdit = new DevExpress.XtraEditors.TextEdit();
             this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem7 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem8 = new DevExpress.XtraLayout.LayoutControlItem();
             this.emptySpaceItem1 = new DevExpress.XtraLayout.EmptySpaceItem();
-            this.dxValidationProvider1 = new DevExpress.XtraEditors.DXErrorProvider.DXValidationProvider(this.components);
-            this.WorkingHoursTextEdit = new DevExpress.XtraEditors.TextEdit();
             this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.shiftTypeTextEdit = new DevExpress.XtraEditors.TextEdit();
             this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.dxValidationProvider1 = new DevExpress.XtraEditors.DXErrorProvider.DXValidationProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.typeOfShiftTextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.WorkingHoursTextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.shiftTypeTextEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dxValidationProvider1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.WorkingHoursTextEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.shiftTypeTextEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dxValidationProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // layoutControl1
@@ -102,8 +102,27 @@
             this.typeOfShiftTextEdit.Size = new System.Drawing.Size(213, 20);
             this.typeOfShiftTextEdit.StyleController = this.layoutControl1;
             this.typeOfShiftTextEdit.TabIndex = 4;
-            compareAgainstControlValidationRule1.ErrorText = "Данное поле не должен быть пустым!";
-            this.dxValidationProvider1.SetValidationRule(this.typeOfShiftTextEdit, compareAgainstControlValidationRule1);
+            compareAgainstControlValidationRule2.ErrorText = "Данное поле не должен быть пустым!";
+            this.dxValidationProvider1.SetValidationRule(this.typeOfShiftTextEdit, compareAgainstControlValidationRule2);
+            this.typeOfShiftTextEdit.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.typeOfShiftTextEdit_KeyPress);
+            // 
+            // WorkingHoursTextEdit
+            // 
+            this.WorkingHoursTextEdit.Location = new System.Drawing.Point(85, 36);
+            this.WorkingHoursTextEdit.Name = "WorkingHoursTextEdit";
+            this.WorkingHoursTextEdit.Size = new System.Drawing.Size(213, 20);
+            this.WorkingHoursTextEdit.StyleController = this.layoutControl1;
+            this.WorkingHoursTextEdit.TabIndex = 4;
+            this.WorkingHoursTextEdit.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.WorkingHoursTextEdit_KeyPress);
+            // 
+            // shiftTypeTextEdit
+            // 
+            this.shiftTypeTextEdit.Location = new System.Drawing.Point(85, 60);
+            this.shiftTypeTextEdit.Name = "shiftTypeTextEdit";
+            this.shiftTypeTextEdit.Size = new System.Drawing.Size(213, 20);
+            this.shiftTypeTextEdit.StyleController = this.layoutControl1;
+            this.shiftTypeTextEdit.TabIndex = 4;
+            this.shiftTypeTextEdit.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.shiftTypeTextEdit_KeyPress);
             // 
             // layoutControlGroup1
             // 
@@ -156,14 +175,6 @@
             this.emptySpaceItem1.Size = new System.Drawing.Size(105, 26);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             // 
-            // WorkingHoursTextEdit
-            // 
-            this.WorkingHoursTextEdit.Location = new System.Drawing.Point(85, 36);
-            this.WorkingHoursTextEdit.Name = "WorkingHoursTextEdit";
-            this.WorkingHoursTextEdit.Size = new System.Drawing.Size(213, 20);
-            this.WorkingHoursTextEdit.StyleController = this.layoutControl1;
-            this.WorkingHoursTextEdit.TabIndex = 4;
-            // 
             // layoutControlItem2
             // 
             this.layoutControlItem2.Control = this.WorkingHoursTextEdit;
@@ -174,14 +185,6 @@
             this.layoutControlItem2.Size = new System.Drawing.Size(290, 24);
             this.layoutControlItem2.Text = "Рабочие часы";
             this.layoutControlItem2.TextSize = new System.Drawing.Size(70, 13);
-            // 
-            // shiftTypeTextEdit
-            // 
-            this.shiftTypeTextEdit.Location = new System.Drawing.Point(85, 60);
-            this.shiftTypeTextEdit.Name = "shiftTypeTextEdit";
-            this.shiftTypeTextEdit.Size = new System.Drawing.Size(213, 20);
-            this.shiftTypeTextEdit.StyleController = this.layoutControl1;
-            this.shiftTypeTextEdit.TabIndex = 4;
             // 
             // layoutControlItem3
             // 
@@ -211,16 +214,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.typeOfShiftTextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.WorkingHoursTextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.shiftTypeTextEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dxValidationProvider1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.WorkingHoursTextEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.shiftTypeTextEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dxValidationProvider1)).EndInit();
             this.ResumeLayout(false);
 
         }

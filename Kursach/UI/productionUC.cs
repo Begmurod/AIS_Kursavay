@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using DevExpress.Xpo;
 using Kursach.UI.WinForm;
-using Kursach.DB.DBKursach;
+using Kursach.DB.Kursach;
 
 namespace Kursach.UI
 {
@@ -71,7 +71,7 @@ namespace Kursach.UI
 
                 //TODO сделать фильтр по критериям
                 DevExpress.Xpo.DB.SelectedData _positionData = u.ExecuteQuery(string.Format(@"
-                SELECT [GUID]
+               [GUID]
       ,[ProductsGUID]
       ,[OperationsGUID]
       ,[Volume]
@@ -83,7 +83,7 @@ namespace Kursach.UI
       ,[EndDate]
       ,[DateOfChange]
       ,[DeletedDate]
-  FROM [dbo].[ProductionView]
+  FROM [dbo].[ProductionsView]
   WHERE [DeletedDate] is null"
                 ));
                 productionDataView.LoadData(_positionData);

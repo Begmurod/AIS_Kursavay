@@ -12,6 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -34,21 +35,60 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Accessibility" />
-    <Reference Include="DevExpress.BonusSkins.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Data.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Images.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Printing.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Sparkline.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Utils.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Xpo.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraBars.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraEditors.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraGrid.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraLayout.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraNavBar.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraPrinting.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraScheduler.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraScheduler.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.BonusSkins.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Charts.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.CodeParser.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v20.1.UI, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Images.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v20.1.Export, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.Desktop.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v20.1.UI, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v20.1.Extensions, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v20.1.Wizard, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v20.1.Extensions, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Transactions.Bridge, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
     <Reference Include="SMDiagnostics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
     <Reference Include="System" />
@@ -56,7 +96,10 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Design" />
     <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing.Design" />
     <Reference Include="System.EnterpriseServices" />
     <Reference Include="System.IdentityModel" />
     <Reference Include="System.IdentityModel.Selectors" />
@@ -85,102 +128,111 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DB\ORMDataModelDBKursachCode\auth_Users.cs" />
-    <Compile Include="DB\ORMDataModelDBKursachCode\auth_Users.Designer.cs">
+    <Compile Include="AfForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AfForm.Designer.cs">
+      <DependentUpon>AfForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DB\ORMDataModelCode\auth_Users.cs" />
+    <Compile Include="DB\ORMDataModelCode\auth_Users.Designer.cs">
       <DependentUpon>auth_Users.cs</DependentUpon>
     </Compile>
-    <Compile Include="DB\ORMDataModelDBKursachCode\ConnectionHelper.cs" />
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_Machine.cs" />
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_Machine.Designer.cs">
-      <DependentUpon>device_Machine.cs</DependentUpon>
+    <Compile Include="DB\ORMDataModelCode\ConnectionHelper.cs" />
+    <Compile Include="DB\ORMDataModelCode\device_Agregat.cs" />
+    <Compile Include="DB\ORMDataModelCode\device_Agregat.Designer.cs">
+      <DependentUpon>device_Agregat.cs</DependentUpon>
     </Compile>
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_Material.cs" />
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_Material.Designer.cs">
+    <Compile Include="DB\ORMDataModelCode\device_Material.cs" />
+    <Compile Include="DB\ORMDataModelCode\device_Material.Designer.cs">
       <DependentUpon>device_Material.cs</DependentUpon>
     </Compile>
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_Operations.cs" />
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_Operations.Designer.cs">
+    <Compile Include="DB\ORMDataModelCode\device_Operations.cs" />
+    <Compile Include="DB\ORMDataModelCode\device_Operations.Designer.cs">
       <DependentUpon>device_Operations.cs</DependentUpon>
     </Compile>
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_Position.cs" />
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_Position.Designer.cs">
+    <Compile Include="DB\ORMDataModelCode\device_Position.cs" />
+    <Compile Include="DB\ORMDataModelCode\device_Position.Designer.cs">
       <DependentUpon>device_Position.cs</DependentUpon>
     </Compile>
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_Productions.cs" />
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_Productions.Designer.cs">
+    <Compile Include="DB\ORMDataModelCode\device_Productions.cs" />
+    <Compile Include="DB\ORMDataModelCode\device_Productions.Designer.cs">
       <DependentUpon>device_Productions.cs</DependentUpon>
     </Compile>
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_Products.cs" />
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_Products.Designer.cs">
+    <Compile Include="DB\ORMDataModelCode\device_Products.cs" />
+    <Compile Include="DB\ORMDataModelCode\device_Products.Designer.cs">
       <DependentUpon>device_Products.cs</DependentUpon>
     </Compile>
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_ProfileWorkTeam.cs" />
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_ProfileWorkTeam.Designer.cs">
+    <Compile Include="DB\ORMDataModelCode\device_ProfileWorkTeam.cs" />
+    <Compile Include="DB\ORMDataModelCode\device_ProfileWorkTeam.Designer.cs">
       <DependentUpon>device_ProfileWorkTeam.cs</DependentUpon>
     </Compile>
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_RepairSchedule.cs" />
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_RepairSchedule.Designer.cs">
+    <Compile Include="DB\ORMDataModelCode\device_RepairSchedule.cs" />
+    <Compile Include="DB\ORMDataModelCode\device_RepairSchedule.Designer.cs">
       <DependentUpon>device_RepairSchedule.cs</DependentUpon>
     </Compile>
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_Staff.cs" />
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_Staff.Designer.cs">
+    <Compile Include="DB\ORMDataModelCode\device_Staff.cs" />
+    <Compile Include="DB\ORMDataModelCode\device_Staff.Designer.cs">
       <DependentUpon>device_Staff.cs</DependentUpon>
     </Compile>
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_Type.cs" />
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_Type.Designer.cs">
-      <DependentUpon>device_Type.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_TypeOfRepair.cs" />
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_TypeOfRepair.Designer.cs">
+    <Compile Include="DB\ORMDataModelCode\device_TypeOfRepair.cs" />
+    <Compile Include="DB\ORMDataModelCode\device_TypeOfRepair.Designer.cs">
       <DependentUpon>device_TypeOfRepair.cs</DependentUpon>
     </Compile>
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_TypeOperations.cs" />
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_TypeOperations.Designer.cs">
+    <Compile Include="DB\ORMDataModelCode\device_TypeOperations.cs" />
+    <Compile Include="DB\ORMDataModelCode\device_TypeOperations.Designer.cs">
       <DependentUpon>device_TypeOperations.cs</DependentUpon>
     </Compile>
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_TypeWorkTeam.cs" />
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_TypeWorkTeam.Designer.cs">
+    <Compile Include="DB\ORMDataModelCode\device_TypeWorkTeam.cs" />
+    <Compile Include="DB\ORMDataModelCode\device_TypeWorkTeam.Designer.cs">
       <DependentUpon>device_TypeWorkTeam.cs</DependentUpon>
     </Compile>
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_WorkShifts.cs" />
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_WorkShifts.Designer.cs">
+    <Compile Include="DB\ORMDataModelCode\device_WorkShifts.cs" />
+    <Compile Include="DB\ORMDataModelCode\device_WorkShifts.Designer.cs">
       <DependentUpon>device_WorkShifts.cs</DependentUpon>
     </Compile>
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_WorkTeam.cs" />
-    <Compile Include="DB\ORMDataModelDBKursachCode\device_WorkTeam.Designer.cs">
+    <Compile Include="DB\ORMDataModelCode\device_WorkTeam.cs" />
+    <Compile Include="DB\ORMDataModelCode\device_WorkTeam.Designer.cs">
       <DependentUpon>device_WorkTeam.cs</DependentUpon>
     </Compile>
-    <Compile Include="DB\ORMDataModelDBKursachCode\MachineView.cs" />
-    <Compile Include="DB\ORMDataModelDBKursachCode\MachineView.Designer.cs">
-      <DependentUpon>MachineView.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DB\ORMDataModelDBKursachCode\OperationsView.cs" />
-    <Compile Include="DB\ORMDataModelDBKursachCode\OperationsView.Designer.cs">
-      <DependentUpon>OperationsView.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DB\ORMDataModelDBKursachCode\ProductionView.cs" />
-    <Compile Include="DB\ORMDataModelDBKursachCode\ProductionView.Designer.cs">
-      <DependentUpon>ProductionView.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DB\ORMDataModelDBKursachCode\sp_helpdiagramdefinitionResult.cs">
+    <Compile Include="DB\ORMDataModelCode\sp_helpdiagramdefinitionResult.cs">
       <DependentUpon>StoredProcHelper.cs</DependentUpon>
     </Compile>
-    <Compile Include="DB\ORMDataModelDBKursachCode\sp_helpdiagramsResult.cs">
+    <Compile Include="DB\ORMDataModelCode\sp_helpdiagramsResult.cs">
       <DependentUpon>StoredProcHelper.cs</DependentUpon>
     </Compile>
-    <Compile Include="DB\ORMDataModelDBKursachCode\StoredProcHelper.cs" />
-    <Compile Include="DB\ORMDataModelDBKursachCode\sysdiagrams.cs" />
-    <Compile Include="DB\ORMDataModelDBKursachCode\sysdiagrams.Designer.cs">
+    <Compile Include="DB\ORMDataModelCode\StoredProcHelper.cs" />
+    <Compile Include="DB\ORMDataModelCode\sysdiagrams.cs" />
+    <Compile Include="DB\ORMDataModelCode\sysdiagrams.Designer.cs">
       <DependentUpon>sysdiagrams.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBСonnected.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KursachDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KursachDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegForm.Designer.cs">
+      <DependentUpon>RegForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="RibbonForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="RibbonForm.Designer.cs">
       <DependentUpon>RibbonForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
     <Compile Include="UI\Common\LoadingIndicator.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -229,6 +281,30 @@
     <Compile Include="UI\productsUC.Designer.cs">
       <DependentUpon>productsUC.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\profileWorkTeamUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\profileWorkTeamUC.Designer.cs">
+      <DependentUpon>profileWorkTeamUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\repairScheduleUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\repairScheduleUC.Designer.cs">
+      <DependentUpon>repairScheduleUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\reportUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\reportUC.Designer.cs">
+      <DependentUpon>reportUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\staffUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\staffUC.Designer.cs">
+      <DependentUpon>staffUC.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\typeOfRepairUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -241,11 +317,17 @@
     <Compile Include="UI\typeOperationsUC.Designer.cs">
       <DependentUpon>typeOperationsUC.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\TypeUC.cs">
+    <Compile Include="UI\typeWorkTeamUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UI\TypeUC.Designer.cs">
-      <DependentUpon>TypeUC.cs</DependentUpon>
+    <Compile Include="UI\typeWorkTeamUC.Designer.cs">
+      <DependentUpon>typeWorkTeamUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\usersUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\usersUC.Designer.cs">
+      <DependentUpon>usersUC.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\WinForm\MachineForm.cs">
       <SubType>Form</SubType>
@@ -283,11 +365,23 @@
     <Compile Include="UI\WinForm\ProductsForm.Designer.cs">
       <DependentUpon>ProductsForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\WinForm\TypeForm.cs">
+    <Compile Include="UI\WinForm\ProfileWorkTeamForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\WinForm\TypeForm.Designer.cs">
-      <DependentUpon>TypeForm.cs</DependentUpon>
+    <Compile Include="UI\WinForm\ProfileWorkTeamForm.Designer.cs">
+      <DependentUpon>ProfileWorkTeamForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\WinForm\RepairScheduleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\WinForm\RepairScheduleForm.Designer.cs">
+      <DependentUpon>RepairScheduleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\WinForm\StaffForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\WinForm\StaffForm.Designer.cs">
+      <DependentUpon>StaffForm.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\WinForm\TypeOfRepairForm.cs">
       <SubType>Form</SubType>
@@ -301,11 +395,29 @@
     <Compile Include="UI\WinForm\TypeOperationsForm.Designer.cs">
       <DependentUpon>TypeOperationsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\WinForm\TypeWorkTeamForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\WinForm\TypeWorkTeamForm.Designer.cs">
+      <DependentUpon>TypeWorkTeamForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\WinForm\UserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\WinForm\UserForm.Designer.cs">
+      <DependentUpon>UserForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\WinForm\WorkShiftsForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UI\WinForm\WorkShiftsForm.Designer.cs">
       <DependentUpon>WorkShiftsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\WinForm\WorkTeamForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\WinForm\WorkTeamForm.Designer.cs">
+      <DependentUpon>WorkTeamForm.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\workShiftsUC.cs">
       <SubType>UserControl</SubType>
@@ -313,6 +425,19 @@
     <Compile Include="UI\workShiftsUC.Designer.cs">
       <DependentUpon>workShiftsUC.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\workTeamUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\workTeamUC.Designer.cs">
+      <DependentUpon>workTeamUC.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AfForm.resx">
+      <DependentUpon>AfForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaterialReport.rdlc" />
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -322,7 +447,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RegForm.resx">
+      <DependentUpon>RegForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RibbonForm.resx">
       <DependentUpon>RibbonForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -350,14 +479,29 @@
     <EmbeddedResource Include="UI\productsUC.resx">
       <DependentUpon>productsUC.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\profileWorkTeamUC.resx">
+      <DependentUpon>profileWorkTeamUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\repairScheduleUC.resx">
+      <DependentUpon>repairScheduleUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\reportUC.resx">
+      <DependentUpon>reportUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\staffUC.resx">
+      <DependentUpon>staffUC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\typeOfRepairUC.resx">
       <DependentUpon>typeOfRepairUC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\typeOperationsUC.resx">
       <DependentUpon>typeOperationsUC.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\TypeUC.resx">
-      <DependentUpon>TypeUC.cs</DependentUpon>
+    <EmbeddedResource Include="UI\typeWorkTeamUC.resx">
+      <DependentUpon>typeWorkTeamUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\usersUC.resx">
+      <DependentUpon>usersUC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\WinForm\MachineForm.resx">
       <DependentUpon>MachineForm.cs</DependentUpon>
@@ -377,8 +521,14 @@
     <EmbeddedResource Include="UI\WinForm\ProductsForm.resx">
       <DependentUpon>ProductsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\WinForm\TypeForm.resx">
-      <DependentUpon>TypeForm.cs</DependentUpon>
+    <EmbeddedResource Include="UI\WinForm\ProfileWorkTeamForm.resx">
+      <DependentUpon>ProfileWorkTeamForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\WinForm\RepairScheduleForm.resx">
+      <DependentUpon>RepairScheduleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\WinForm\StaffForm.resx">
+      <DependentUpon>StaffForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\WinForm\TypeOfRepairForm.resx">
       <DependentUpon>TypeOfRepairForm.cs</DependentUpon>
@@ -386,16 +536,40 @@
     <EmbeddedResource Include="UI\WinForm\TypeOperationsForm.resx">
       <DependentUpon>TypeOperationsForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\WinForm\TypeWorkTeamForm.resx">
+      <DependentUpon>TypeWorkTeamForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\WinForm\UserForm.resx">
+      <DependentUpon>UserForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\WinForm\WorkShiftsForm.resx">
       <DependentUpon>WorkShiftsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\WinForm\WorkTeamForm.resx">
+      <DependentUpon>WorkTeamForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\workShiftsUC.resx">
       <DependentUpon>workShiftsUC.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="DB\ORMDataModelDBKursach.xpo" />
-    <None Include="DB\ORMDataModelDBKursach.xpo.diagram">
-      <DependentUpon>ORMDataModelDBKursach.xpo</DependentUpon>
+    <EmbeddedResource Include="UI\workTeamUC.resx">
+      <DependentUpon>workTeamUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DB\ORMDataModel.xpo" />
+    <None Include="DB\ORMDataModel.xpo.diagram">
+      <DependentUpon>ORMDataModel.xpo</DependentUpon>
     </None>
+    <None Include="KursachDataSet.xsc">
+      <DependentUpon>KursachDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="KursachDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KursachDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KursachDataSet.xss">
+      <DependentUpon>KursachDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -409,6 +583,43 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="UI\Report\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="CrystalActiveXReportViewerLib11_5">
+      <Guid>{F62B9FA4-455F-4FE3-8A2D-205E4F0BCAFB}</Guid>
+      <VersionMajor>11</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="CrystalReportViewerWebReportSourceLib">
+      <Guid>{BDC05BF3-86BA-477A-9016-253183062619}</Guid>
+      <VersionMajor>11</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

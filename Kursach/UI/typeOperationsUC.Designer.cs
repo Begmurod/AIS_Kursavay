@@ -58,11 +58,11 @@
             this.typeOperationsRibbonControl.ExpandCollapseItem.Id = 0;
             this.typeOperationsRibbonControl.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
             this.typeOperationsRibbonControl.ExpandCollapseItem,
+            this.typeOperationsRibbonControl.SearchEditItem,
             this.barButtonItemAdd,
             this.barButtonItemEdit,
             this.barButtonItemDelete,
-            this.barButtonItemView,
-            this.typeOperationsRibbonControl.SearchEditItem});
+            this.barButtonItemView});
             this.typeOperationsRibbonControl.Location = new System.Drawing.Point(0, 0);
             this.typeOperationsRibbonControl.MaxItemId = 7;
             this.typeOperationsRibbonControl.Name = "typeOperationsRibbonControl";

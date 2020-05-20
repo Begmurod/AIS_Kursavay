@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            DevExpress.XtraEditors.DXErrorProvider.CompareAgainstControlValidationRule compareAgainstControlValidationRule8 = new DevExpress.XtraEditors.DXErrorProvider.CompareAgainstControlValidationRule();
             DevExpress.XtraEditors.DXErrorProvider.CompareAgainstControlValidationRule compareAgainstControlValidationRule1 = new DevExpress.XtraEditors.DXErrorProvider.CompareAgainstControlValidationRule();
             DevExpress.XtraEditors.DXErrorProvider.CompareAgainstControlValidationRule compareAgainstControlValidationRule2 = new DevExpress.XtraEditors.DXErrorProvider.CompareAgainstControlValidationRule();
             DevExpress.XtraEditors.DXErrorProvider.CompareAgainstControlValidationRule compareAgainstControlValidationRule3 = new DevExpress.XtraEditors.DXErrorProvider.CompareAgainstControlValidationRule();
             DevExpress.XtraEditors.DXErrorProvider.CompareAgainstControlValidationRule compareAgainstControlValidationRule4 = new DevExpress.XtraEditors.DXErrorProvider.CompareAgainstControlValidationRule();
             DevExpress.XtraEditors.DXErrorProvider.CompareAgainstControlValidationRule compareAgainstControlValidationRule5 = new DevExpress.XtraEditors.DXErrorProvider.CompareAgainstControlValidationRule();
             DevExpress.XtraEditors.DXErrorProvider.CompareAgainstControlValidationRule compareAgainstControlValidationRule6 = new DevExpress.XtraEditors.DXErrorProvider.CompareAgainstControlValidationRule();
-            DevExpress.XtraEditors.DXErrorProvider.CompareAgainstControlValidationRule compareAgainstControlValidationRule7 = new DevExpress.XtraEditors.DXErrorProvider.CompareAgainstControlValidationRule();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.cancelButton = new DevExpress.XtraEditors.SimpleButton();
             this.addButton = new DevExpress.XtraEditors.SimpleButton();
@@ -122,9 +122,9 @@
             // 
             // cancelButton
             // 
-            this.cancelButton.Location = new System.Drawing.Point(323, 228);
+            this.cancelButton.Location = new System.Drawing.Point(312, 228);
             this.cancelButton.Name = "cancelButton";
-            this.cancelButton.Size = new System.Drawing.Size(113, 22);
+            this.cancelButton.Size = new System.Drawing.Size(124, 22);
             this.cancelButton.StyleController = this.layoutControl1;
             this.cancelButton.TabIndex = 11;
             this.cancelButton.Text = "Отмена";
@@ -134,7 +134,7 @@
             // 
             this.addButton.Location = new System.Drawing.Point(183, 228);
             this.addButton.Name = "addButton";
-            this.addButton.Size = new System.Drawing.Size(136, 22);
+            this.addButton.Size = new System.Drawing.Size(125, 22);
             this.addButton.StyleController = this.layoutControl1;
             this.addButton.TabIndex = 10;
             this.addButton.Text = "Сохранить";
@@ -147,8 +147,9 @@
             this.volumeTextEdit.Size = new System.Drawing.Size(265, 20);
             this.volumeTextEdit.StyleController = this.layoutControl1;
             this.volumeTextEdit.TabIndex = 4;
-            compareAgainstControlValidationRule1.ErrorText = "Значение не должен быть пустым";
-            this.dxValidationProvider.SetValidationRule(this.volumeTextEdit, compareAgainstControlValidationRule1);
+            compareAgainstControlValidationRule8.ErrorText = "Значение не должен быть пустым";
+            this.dxValidationProvider.SetValidationRule(this.volumeTextEdit, compareAgainstControlValidationRule8);
+            this.volumeTextEdit.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.volumeTextEdit_KeyPress);
             // 
             // productsGUIDLookUpEdit1
             // 
@@ -164,8 +165,8 @@
             this.productsGUIDLookUpEdit1.Size = new System.Drawing.Size(265, 20);
             this.productsGUIDLookUpEdit1.StyleController = this.layoutControl1;
             this.productsGUIDLookUpEdit1.TabIndex = 6;
-            compareAgainstControlValidationRule2.ErrorText = "Значение не должен быть пустым";
-            this.dxValidationProvider.SetValidationRule(this.productsGUIDLookUpEdit1, compareAgainstControlValidationRule2);
+            compareAgainstControlValidationRule1.ErrorText = "Значение не должен быть пустым";
+            this.dxValidationProvider.SetValidationRule(this.productsGUIDLookUpEdit1, compareAgainstControlValidationRule1);
             // 
             // productsGUIDDataView
             // 
@@ -187,8 +188,8 @@
             this.operationsGUIDLookUpEdit2.Size = new System.Drawing.Size(265, 20);
             this.operationsGUIDLookUpEdit2.StyleController = this.layoutControl1;
             this.operationsGUIDLookUpEdit2.TabIndex = 6;
-            compareAgainstControlValidationRule3.ErrorText = "Значение не должен быть пустым";
-            this.dxValidationProvider.SetValidationRule(this.operationsGUIDLookUpEdit2, compareAgainstControlValidationRule3);
+            compareAgainstControlValidationRule2.ErrorText = "Значение не должен быть пустым";
+            this.dxValidationProvider.SetValidationRule(this.operationsGUIDLookUpEdit2, compareAgainstControlValidationRule2);
             // 
             // operationsGUIDDataView
             // 
@@ -203,8 +204,9 @@
             this.unitOfMeasurementTextEdit.Size = new System.Drawing.Size(265, 20);
             this.unitOfMeasurementTextEdit.StyleController = this.layoutControl1;
             this.unitOfMeasurementTextEdit.TabIndex = 4;
-            compareAgainstControlValidationRule4.ErrorText = "Значение не должен быть пустым!";
-            this.dxValidationProvider.SetValidationRule(this.unitOfMeasurementTextEdit, compareAgainstControlValidationRule4);
+            compareAgainstControlValidationRule3.ErrorText = "Значение не должен быть пустым!";
+            this.dxValidationProvider.SetValidationRule(this.unitOfMeasurementTextEdit, compareAgainstControlValidationRule3);
+            this.unitOfMeasurementTextEdit.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.unitOfMeasurementTextEdit_KeyPress);
             // 
             // MaterialGUIDLookUpEdit
             // 
@@ -220,8 +222,8 @@
             this.MaterialGUIDLookUpEdit.Size = new System.Drawing.Size(265, 20);
             this.MaterialGUIDLookUpEdit.StyleController = this.layoutControl1;
             this.MaterialGUIDLookUpEdit.TabIndex = 6;
-            compareAgainstControlValidationRule5.ErrorText = "Значение не должен быть пустым";
-            this.dxValidationProvider.SetValidationRule(this.MaterialGUIDLookUpEdit, compareAgainstControlValidationRule5);
+            compareAgainstControlValidationRule4.ErrorText = "Значение не должен быть пустым";
+            this.dxValidationProvider.SetValidationRule(this.MaterialGUIDLookUpEdit, compareAgainstControlValidationRule4);
             // 
             // materialGUIDDataView
             // 
@@ -236,8 +238,9 @@
             this.volumeMaterialTextEdit.Size = new System.Drawing.Size(265, 20);
             this.volumeMaterialTextEdit.StyleController = this.layoutControl1;
             this.volumeMaterialTextEdit.TabIndex = 4;
-            compareAgainstControlValidationRule6.ErrorText = "Значение не должен быть пустым!";
-            this.dxValidationProvider.SetValidationRule(this.volumeMaterialTextEdit, compareAgainstControlValidationRule6);
+            compareAgainstControlValidationRule5.ErrorText = "Значение не должен быть пустым!";
+            this.dxValidationProvider.SetValidationRule(this.volumeMaterialTextEdit, compareAgainstControlValidationRule5);
+            this.volumeMaterialTextEdit.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.volumeMaterialTextEdit_KeyPress);
             // 
             // unitOfMeasurementMaterialTextEdit1
             // 
@@ -246,8 +249,8 @@
             this.unitOfMeasurementMaterialTextEdit1.Size = new System.Drawing.Size(265, 20);
             this.unitOfMeasurementMaterialTextEdit1.StyleController = this.layoutControl1;
             this.unitOfMeasurementMaterialTextEdit1.TabIndex = 4;
-            compareAgainstControlValidationRule7.ErrorText = "This value is not valid";
-            this.dxValidationProvider.SetValidationRule(this.unitOfMeasurementMaterialTextEdit1, compareAgainstControlValidationRule7);
+            compareAgainstControlValidationRule6.ErrorText = "This value is not valid";
+            this.dxValidationProvider.SetValidationRule(this.unitOfMeasurementMaterialTextEdit1, compareAgainstControlValidationRule6);
             // 
             // DateOfTheBeginningDateEdit
             // 
@@ -310,16 +313,16 @@
             this.layoutControlItem7.Control = this.addButton;
             this.layoutControlItem7.Location = new System.Drawing.Point(171, 216);
             this.layoutControlItem7.Name = "layoutControlItem7";
-            this.layoutControlItem7.Size = new System.Drawing.Size(140, 28);
+            this.layoutControlItem7.Size = new System.Drawing.Size(129, 28);
             this.layoutControlItem7.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem7.TextVisible = false;
             // 
             // layoutControlItem8
             // 
             this.layoutControlItem8.Control = this.cancelButton;
-            this.layoutControlItem8.Location = new System.Drawing.Point(311, 216);
+            this.layoutControlItem8.Location = new System.Drawing.Point(300, 216);
             this.layoutControlItem8.Name = "layoutControlItem8";
-            this.layoutControlItem8.Size = new System.Drawing.Size(117, 28);
+            this.layoutControlItem8.Size = new System.Drawing.Size(128, 28);
             this.layoutControlItem8.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem8.TextVisible = false;
             // 

@@ -362,6 +362,7 @@
             this.Controls.Add(this.positionRibbonControl);
             this.Name = "machineUserC";
             this.Size = new System.Drawing.Size(800, 600);
+            this.Load += new System.EventHandler(this.machineUserC_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.tabbedView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.positionRibbonControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.navigationFrame)).EndInit();

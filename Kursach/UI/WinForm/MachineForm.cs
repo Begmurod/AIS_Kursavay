@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using DevExpress.Xpo;
-using Kursach.DB.DBKursach;
+using System.Text.RegularExpressions;
+using DevExpress.Xpo.DB;
+using Kursach.DB.Kursach;
 
 namespace Kursach.UI.WinForm
 {
@@ -13,7 +15,7 @@ namespace Kursach.UI.WinForm
         public bool view;
         public Guid currentMachineGuid;
 
-        private device_Machine currentMachine;
+        private device_Agregat currentMachine;
 
         bool formValid = true;//После реализации метода validForm поменять на false
         private UnitOfWork uow = new UnitOfWork();
@@ -37,11 +39,11 @@ namespace Kursach.UI.WinForm
         {
             if (edit)
             {
-                currentMachine = uow.GetObjectByKey<device_Machine>(currentMachineGuid);
+                currentMachine = uow.GetObjectByKey<device_Agregat>(currentMachineGuid);
             }
             else
             {
-                currentMachine = new device_Machine(uow);
+                currentMachine = new device_Agregat(uow);
             }
 
             #region Настройка внешнего вида
@@ -55,17 +57,30 @@ namespace Kursach.UI.WinForm
             {
                 Text = string.Format("Просмотр единицы {0} ", currentMachine.Name);
                 nameTextEdit.ReadOnly = true;
-                basetypeGUIDLookUpEdit1.ReadOnly = true;
+                nameTextEdit1.ReadOnly = true;
                 baseOperationsGUIDLookUpEdit.ReadOnly = true;
                 CommissioningDatedateEdit.ReadOnly = true;
                 layoutControlItem7.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never;
             }
             #endregion
+            #region Заполнение выпадающего списка данными
+            using (Session u = new Session())
+            {
+                SelectedData operationsData = u.ExecuteQuery(@"SELECT GUID,NameOperations FROM [device].Operations WHERE[DeletedDate] is null");
+                operationsDataView.LoadData(operationsData);
 
+            }
+            using (Session u = new Session())
+            {
+                SelectedData typeGUIDData = u.ExecuteQuery(@"SELECT GUID,NameType FROM device.Type WHERE[DeletedDate] is null");
+                typeDataView.LoadData(typeGUIDData);
+
+            }
+            #endregion
             if (edit)
             {
                 nameTextEdit.Text = currentMachine.Name;
-                basetypeGUIDLookUpEdit1.EditValue = currentMachine.TypeGUID;
+                nameTextEdit1.EditValue = currentMachine.NameType;
                 baseOperationsGUIDLookUpEdit.EditValue = currentMachine.OperationsGUID;
                 CommissioningDatedateEdit.DateTime = currentMachine.CommissioningDate;
             }
@@ -85,7 +100,7 @@ namespace Kursach.UI.WinForm
             if (formValid)
             {
                 currentMachine.Name = nameTextEdit.Text;
-                currentMachine.TypeGUID = uow.GetObjectByKey<device_Type>(baseOperationsGUIDLookUpEdit.EditValue);
+                currentMachine.NameType = nameTextEdit1.Text;
                 currentMachine.OperationsGUID = uow.GetObjectByKey<device_Operations>(baseOperationsGUIDLookUpEdit.EditValue);
                 currentMachine.CommissioningDate = CommissioningDatedateEdit.DateTime;
 
@@ -127,6 +142,25 @@ namespace Kursach.UI.WinForm
                 XtraMessageBox.Show(str, "Ввод недостающих данных", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
 
+        }
+
+        private void nameTextEdit_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            string Symbol = e.KeyChar.ToString();
+            if ((char)e.KeyChar == (Char)Keys.CapsLock) return;
+            if ((char)e.KeyChar == (Char)Keys.Back) return;
+            if (char.IsLetter(e.KeyChar)) return;
+            e.Handled = true;
+            if (!Regex.Match(Symbol, @"[а-яА-Я]|[a-zA-Z]").Success)
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void cancelButton_Click(object sender, EventArgs e)
+        {
+            uow.Dispose();
+            Close();
         }
     }
 }

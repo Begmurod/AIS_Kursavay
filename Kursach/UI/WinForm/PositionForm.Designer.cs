@@ -73,13 +73,14 @@
             // 
             // NamePositiontextEdit
             // 
-            this.NamePositiontextEdit.Location = new System.Drawing.Point(122, 12);
+            this.NamePositiontextEdit.Location = new System.Drawing.Point(117, 12);
             this.NamePositiontextEdit.Name = "NamePositiontextEdit";
-            this.NamePositiontextEdit.Size = new System.Drawing.Size(239, 20);
+            this.NamePositiontextEdit.Size = new System.Drawing.Size(244, 20);
             this.NamePositiontextEdit.StyleController = this.layoutControl1;
             this.NamePositiontextEdit.TabIndex = 6;
             compareAgainstControlValidationRule1.ErrorText = "Данное поле не должен быть пустым!";
             this.dxValidationProvider1.SetValidationRule(this.NamePositiontextEdit, compareAgainstControlValidationRule1);
+            this.NamePositiontextEdit.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NamePositiontextEdit_KeyPress);
             // 
             // addButton
             // 
@@ -134,9 +135,9 @@
             this.layoutControlItem3.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem3.Name = "layoutControlItem3";
             this.layoutControlItem3.Size = new System.Drawing.Size(353, 24);
-            this.layoutControlItem3.Text = "Название должности";
+            this.layoutControlItem3.Text = "NamePositiontextEdit";
             this.layoutControlItem3.TextLocation = DevExpress.Utils.Locations.Left;
-            this.layoutControlItem3.TextSize = new System.Drawing.Size(107, 13);
+            this.layoutControlItem3.TextSize = new System.Drawing.Size(102, 13);
             // 
             // simpleSeparator1
             // 

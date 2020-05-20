@@ -7,9 +7,10 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Kursach.DB.DBKursach;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
+using System.Text.RegularExpressions;
+using Kursach.DB.Kursach;
 
 namespace Kursach.UI.WinForm
 {
@@ -126,6 +127,21 @@ namespace Kursach.UI.WinForm
         {
             uow.Dispose();
             Close();
+        }
+
+        private void nameTextEdit_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            string Symbol = e.KeyChar.ToString();
+            if ((char)e.KeyChar == (Char)Keys.CapsLock) return;
+            if ((char)e.KeyChar == (Char)Keys.Back) return;
+            if ((char)e.KeyChar == '@') return;
+            if ((char)e.KeyChar == '.') return;
+            if (char.IsLetter(e.KeyChar)) return;
+            e.Handled = true;
+            if (!Regex.Match(Symbol, @"[а-яА-Я]|[a-zA-Z]").Success)
+            {
+                e.Handled = true;
+            }
         }
     }
 }

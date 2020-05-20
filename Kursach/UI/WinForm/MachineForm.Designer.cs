@@ -39,17 +39,18 @@
             this.baseOperationsGUIDLookUpEdit = new DevExpress.XtraEditors.LookUpEdit();
             this.operationsDataView = new DevExpress.Xpo.XPDataView(this.components);
             this.nameTextEdit = new DevExpress.XtraEditors.TextEdit();
-            this.basetypeGUIDLookUpEdit1 = new DevExpress.XtraEditors.LookUpEdit();
             this.typeDataView = new DevExpress.Xpo.XPDataView(this.components);
             this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem7 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem8 = new DevExpress.XtraLayout.LayoutControlItem();
             this.emptySpaceItem1 = new DevExpress.XtraLayout.EmptySpaceItem();
-            this.layoutControlItem9 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
             this.dxValidationProvider = new DevExpress.XtraEditors.DXErrorProvider.DXValidationProvider(this.components);
+            this.nameTextEdit1 = new DevExpress.XtraEditors.TextEdit();
+            this.dxValidationProvider2 = new DevExpress.XtraEditors.DXErrorProvider.DXValidationProvider(this.components);
+            this.layoutControlItem4 = new DevExpress.XtraLayout.LayoutControlItem();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CommissioningDatedateEdit.Properties.CalendarTimeProperties)).BeginInit();
@@ -57,17 +58,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.baseOperationsGUIDLookUpEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.operationsDataView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nameTextEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.basetypeGUIDLookUpEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.typeDataView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dxValidationProvider)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nameTextEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dxValidationProvider2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).BeginInit();
             this.SuspendLayout();
             // 
             // layoutControl1
@@ -77,7 +79,7 @@
             this.layoutControl1.Controls.Add(this.addButton);
             this.layoutControl1.Controls.Add(this.baseOperationsGUIDLookUpEdit);
             this.layoutControl1.Controls.Add(this.nameTextEdit);
-            this.layoutControl1.Controls.Add(this.basetypeGUIDLookUpEdit1);
+            this.layoutControl1.Controls.Add(this.nameTextEdit1);
             this.layoutControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.layoutControl1.Location = new System.Drawing.Point(0, 0);
             this.layoutControl1.Name = "layoutControl1";
@@ -109,6 +111,7 @@
             this.cancelButton.StyleController = this.layoutControl1;
             this.cancelButton.TabIndex = 11;
             this.cancelButton.Text = "Отмена";
+            this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
             // 
             // addButton
             // 
@@ -127,9 +130,9 @@
             this.baseOperationsGUIDLookUpEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.baseOperationsGUIDLookUpEdit.Properties.Columns.AddRange(new DevExpress.XtraEditors.Controls.LookUpColumnInfo[] {
-            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("Name", "Название операции")});
+            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("NameOperations", "Название операции")});
             this.baseOperationsGUIDLookUpEdit.Properties.DataSource = this.operationsDataView;
-            this.baseOperationsGUIDLookUpEdit.Properties.DisplayMember = "Name";
+            this.baseOperationsGUIDLookUpEdit.Properties.DisplayMember = "NameOperations";
             this.baseOperationsGUIDLookUpEdit.Properties.ValueMember = "GUID";
             this.baseOperationsGUIDLookUpEdit.Size = new System.Drawing.Size(272, 20);
             this.baseOperationsGUIDLookUpEdit.StyleController = this.layoutControl1;
@@ -142,7 +145,7 @@
             // 
             this.operationsDataView.Properties.AddRange(new DevExpress.Xpo.DataViewProperty[] {
             new DevExpress.Xpo.DataViewProperty("GUID", typeof(object)),
-            new DevExpress.Xpo.DataViewProperty("Name", typeof(string))});
+            new DevExpress.Xpo.DataViewProperty("NameOperations", typeof(string))});
             // 
             // nameTextEdit
             // 
@@ -153,30 +156,13 @@
             this.nameTextEdit.TabIndex = 4;
             compareAgainstControlValidationRule2.ErrorText = "This value is not valid";
             this.dxValidationProvider.SetValidationRule(this.nameTextEdit, compareAgainstControlValidationRule2);
-            // 
-            // basetypeGUIDLookUpEdit1
-            // 
-            this.basetypeGUIDLookUpEdit1.Location = new System.Drawing.Point(160, 36);
-            this.basetypeGUIDLookUpEdit1.Name = "basetypeGUIDLookUpEdit1";
-            this.basetypeGUIDLookUpEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.basetypeGUIDLookUpEdit1.Properties.Columns.AddRange(new DevExpress.XtraEditors.Controls.LookUpColumnInfo[] {
-            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("Name", "Название типо")});
-            this.basetypeGUIDLookUpEdit1.Properties.DataSource = this.typeDataView;
-            this.basetypeGUIDLookUpEdit1.Properties.DisplayMember = "Name";
-            this.basetypeGUIDLookUpEdit1.Properties.ValueMember = "GUID";
-            this.basetypeGUIDLookUpEdit1.Size = new System.Drawing.Size(272, 20);
-            this.basetypeGUIDLookUpEdit1.StyleController = this.layoutControl1;
-            this.basetypeGUIDLookUpEdit1.TabIndex = 6;
-            compareAgainstControlValidationRule3.CompareControlOperator = DevExpress.XtraEditors.DXErrorProvider.CompareControlOperator.NotEquals;
-            compareAgainstControlValidationRule3.ErrorText = "Поле не должно быть пустым!";
-            this.dxValidationProvider.SetValidationRule(this.basetypeGUIDLookUpEdit1, compareAgainstControlValidationRule3);
+            this.nameTextEdit.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.nameTextEdit_KeyPress);
             // 
             // typeDataView
             // 
             this.typeDataView.Properties.AddRange(new DevExpress.Xpo.DataViewProperty[] {
             new DevExpress.Xpo.DataViewProperty("GUID", typeof(object)),
-            new DevExpress.Xpo.DataViewProperty("Name", typeof(string))});
+            new DevExpress.Xpo.DataViewProperty("NameType", typeof(string))});
             // 
             // layoutControlGroup1
             // 
@@ -187,9 +173,9 @@
             this.layoutControlItem7,
             this.layoutControlItem8,
             this.emptySpaceItem1,
-            this.layoutControlItem9,
             this.layoutControlItem3,
-            this.layoutControlItem2});
+            this.layoutControlItem2,
+            this.layoutControlItem4});
             this.layoutControlGroup1.Name = "Root";
             this.layoutControlGroup1.Size = new System.Drawing.Size(444, 146);
             this.layoutControlGroup1.TextVisible = false;
@@ -229,17 +215,6 @@
             this.emptySpaceItem1.Size = new System.Drawing.Size(145, 30);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             // 
-            // layoutControlItem9
-            // 
-            this.layoutControlItem9.Control = this.basetypeGUIDLookUpEdit1;
-            this.layoutControlItem9.ControlAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.layoutControlItem9.CustomizationFormText = "Тип агрегата";
-            this.layoutControlItem9.Location = new System.Drawing.Point(0, 24);
-            this.layoutControlItem9.Name = "layoutControlItem9";
-            this.layoutControlItem9.Size = new System.Drawing.Size(424, 24);
-            this.layoutControlItem9.Text = "Тип агрегата";
-            this.layoutControlItem9.TextSize = new System.Drawing.Size(145, 13);
-            // 
             // layoutControlItem3
             // 
             this.layoutControlItem3.Control = this.baseOperationsGUIDLookUpEdit;
@@ -258,6 +233,27 @@
             this.layoutControlItem2.Size = new System.Drawing.Size(424, 24);
             this.layoutControlItem2.Text = "Дата ввода в эксплуатацию";
             this.layoutControlItem2.TextSize = new System.Drawing.Size(145, 13);
+            // 
+            // nameTextEdit1
+            // 
+            this.nameTextEdit1.Location = new System.Drawing.Point(160, 36);
+            this.nameTextEdit1.Name = "nameTextEdit1";
+            this.nameTextEdit1.Size = new System.Drawing.Size(272, 20);
+            this.nameTextEdit1.StyleController = this.layoutControl1;
+            this.nameTextEdit1.TabIndex = 4;
+            compareAgainstControlValidationRule3.ErrorText = "This value is not valid";
+            this.dxValidationProvider2.SetValidationRule(this.nameTextEdit1, compareAgainstControlValidationRule3);
+            // 
+            // layoutControlItem4
+            // 
+            this.layoutControlItem4.Control = this.nameTextEdit1;
+            this.layoutControlItem4.ControlAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.layoutControlItem4.CustomizationFormText = "Название типо";
+            this.layoutControlItem4.Location = new System.Drawing.Point(0, 24);
+            this.layoutControlItem4.Name = "layoutControlItem4";
+            this.layoutControlItem4.Size = new System.Drawing.Size(424, 24);
+            this.layoutControlItem4.Text = "Название типо";
+            this.layoutControlItem4.TextSize = new System.Drawing.Size(145, 13);
             // 
             // MachineForm
             // 
@@ -278,17 +274,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.baseOperationsGUIDLookUpEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.operationsDataView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nameTextEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.basetypeGUIDLookUpEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.typeDataView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dxValidationProvider)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nameTextEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dxValidationProvider2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -307,11 +304,12 @@
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem8;
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem1;
         private DevExpress.Xpo.XPDataView typeDataView;
-        private DevExpress.XtraEditors.LookUpEdit basetypeGUIDLookUpEdit1;
         private DevExpress.Xpo.XPDataView operationsDataView;
-        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem9;
         private DevExpress.XtraEditors.DateEdit CommissioningDatedateEdit;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem2;
         private DevExpress.XtraEditors.DXErrorProvider.DXValidationProvider dxValidationProvider;
+        private DevExpress.XtraEditors.TextEdit nameTextEdit1;
+        private DevExpress.XtraEditors.DXErrorProvider.DXValidationProvider dxValidationProvider2;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem4;
     }
 }

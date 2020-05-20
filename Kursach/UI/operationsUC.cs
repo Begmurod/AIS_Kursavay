@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using DevExpress.Xpo;
 using Kursach.UI.WinForm;
-using Kursach.DB.DBKursach;
+using Kursach.DB.Kursach;
 
 namespace Kursach.UI
 {
@@ -80,7 +80,7 @@ namespace Kursach.UI
 
                 //TODO сделать фильтр по критериям
                 DevExpress.Xpo.DB.SelectedData _operationsData = u.ExecuteQuery(string.Format(@"
-              SELECT  [GUID]
+              SELECT   [GUID]
       ,[NameOperations]
       ,[TypeOperationsGUID]
       ,[OperationTime]

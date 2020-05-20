@@ -10,7 +10,8 @@ using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using DevExpress.Xpo;
 using DevExpress.Xpo.DB;
-using Kursach.DB.DBKursach;
+using Kursach.DB.Kursach;
+using System.Text.RegularExpressions;
 
 namespace Kursach.UI.WinForm
 {
@@ -77,7 +78,7 @@ namespace Kursach.UI.WinForm
             }
             using (Session u = new Session())
             {
-                SelectedData workTeamGUID = u.ExecuteQuery(@"SELECT GUID,NameType FROM [device].TypeWorkTeam WHERE[DeletedDate] is null");
+                SelectedData workTeamGUID = u.ExecuteQuery(@"SELECT GUID,NumberOfWorkers  FROM [device].WorkTeam WHERE[DeletedDate] is null");
                 workTeamGUIDDataView.LoadData(workTeamGUID);
 
             }
@@ -161,6 +162,19 @@ namespace Kursach.UI.WinForm
         private void OperationsForm_Load_1(object sender, EventArgs e)
         {
             initForm();
+        }
+
+        private void nameOperationsTextEdit_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            string Symbol = e.KeyChar.ToString();
+            if ((char)e.KeyChar == (Char)Keys.CapsLock) return;
+            if ((char)e.KeyChar == (Char)Keys.Back) return;
+            if (char.IsLetter(e.KeyChar)) return;
+            e.Handled = true;
+            if (!Regex.Match(Symbol, @"[а-яА-Я]|[a-zA-Z]").Success)
+            {
+                e.Handled = true;
+            }
         }
     }
 }

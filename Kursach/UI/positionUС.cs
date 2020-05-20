@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Kursach.WinForm;
 using DevExpress.Xpo;
-using Kursach.DB.DBKursach;
+using Kursach.DB.Kursach;
 using DevExpress.XtraEditors;
 
 namespace Kursach.UI
